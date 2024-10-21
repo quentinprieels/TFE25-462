@@ -12,6 +12,17 @@ In this context, *an experimental setup was developed at UCLouvain* during the p
 
 The *goal of the thesis* is to *implement on FPGA* several blocks of the OFDM communication chain and of the radar chain to speed up the processing and target real-time data processing with the experimental setup. The different blocks that are considered are the FFT, several synchronization operations (frame synchronization, symbol timing offset, carrier frequency offset estimation), and/or the building of the RDM (Range/Doppler map). The implementation will of course be constrained by the available FPGA characteristics on the SDR setup, as well as the expected transmission and processing speed.
 
+## Project structure
+
+The project is structured as follows:
+
+- `docs/`: contains some documentation related to the project and helpful guides.
+- `RADCOM_library/`: contains the source code of the RADCOM library developed by UCLouvain and used in the project.
+- `src/`
+  - `baseline/`: contains the source code of the baseline implementation of the OFDM chain.
+- `experiments/`: contains the source code of the experiments conducted during the project.
+- `results/`: contains the results of experiments conducted during the project.
+
 ## Student, promotors and teaching assistants
 
 - **Student**: [Quentin Prieels](mailto:quentin.prieels@student.uclouvain.be)
