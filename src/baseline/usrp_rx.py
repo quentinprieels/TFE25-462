@@ -40,11 +40,23 @@ from radcomlib.radar_toolbox import pulse_correlation
 import matplotlib.pyplot as plt
 import numpy as np
 
+
+# Time measure library
+from timeit import default_timer as timer
+import sys
+
+def timer_func(func):
+    def wrapper(*args, **kwargs):
+        start = timer()
+        result = func(*args, **kwargs)
+        end = timer()
+        print(f'{func.__name__.replace("_timed", "")},{(end - start) * 1000:.6f}') # ms
+        return result
+    return wrapper
+        
 """
 #1. Subfunction definition
 """
-
-
 def process_rx(filename):
     """
     The function opens the <.txt> file from the reception with the
@@ -82,11 +94,17 @@ def process_rx(filename):
 # 2.1 These parameters were defined at the transmitter
 ###############################################################################
 
+# Input folder
+input_folder = sys.argv[1] or "data/"
+# Received signal file name
+rx_sig_filename = sys.argv[2] or "rx_sig_rx.dat"
 # Transmission scenario name
 scenario_name = "Setup_40MHz"
+# Show graphs
+show_results = False
 
 # Load the parameters for the given scenario
-MyDic_param = np.load(scenario_name + "_" + "parameters.npy", allow_pickle=True).item()
+MyDic_param = np.load(input_folder + scenario_name + "_" + "parameters.npy", allow_pickle=True).item()
 # Number of transmitted pulses (number of OFDM symbols)
 P = MyDic_param["P"]  # default: same as Tx file
 # Bandwidth [Hz]: The maximum available bandwith is 100 MHz
@@ -198,10 +216,10 @@ pilots_idx_t_mesh, pilots_idx_f_mesh = np.meshgrid(pilots_idx_t, pilots_idx_f)
 
 # Matrix of size: Number of OFDM symbols x Number of subcarriers (countains
 # both the pilots and data symbols)
-symbols = np.load(scenario_name + "_" + "symbols.npy")
+symbols = np.load(input_folder + scenario_name + "_" + "symbols.npy")
 # Vector of size: Number of subcarriers (countains only the preamble symbols
 # transmitted for the packet detection).
-preamble = np.load(scenario_name + "_" + "preamble.npy")
+preamble = np.load(input_folder + scenario_name + "_" + "preamble.npy")
 
 ## Get the corresponding pilots and bits
 
@@ -212,7 +230,7 @@ pilots = symbols[pilots_idx_t_mesh.T, pilots_idx_f_mesh.T]
 bits = inverse_mapping(symbols.reshape((P * N_sc,)), const_type)
 
 ## Load the received signal
-rx_sig = process_rx("rx_sig.dat")
+rx_sig = process_rx(input_folder + rx_sig_filename)
 
 """
 #5. Communication processing
@@ -222,45 +240,75 @@ rx_sig = process_rx("rx_sig.dat")
 # 5.1 Synchronize the signal by correlating with the preamble
 ###############################################################################
 
-# Get the maximum of the correlation in the first half of the signal to
-# ensure that we have a full symbol afterwards
-preamble_pulse = OFDM_modulation(np.array([preamble]), L_CP, M)
-pulse_corr, max_idx = pulse_correlation(rx_sig[: len(rx_sig) // 2], preamble_pulse)
-# Move the begin of the vector to the beginning of the preamble
-r_sync = rx_sig[max_idx:]
+@timer_func
+def OFDM_synchronisation_timed(rx_sig, preamble, L_CP, M):
+    # Get the maximum of the correlation in the first half of the signal to
+    # ensure that we have a full symbol afterwards
+    preamble_pulse = OFDM_modulation(np.array([preamble]), L_CP, M)
+    pulse_corr, max_idx = pulse_correlation(rx_sig[: len(rx_sig) // 2], preamble_pulse)
+    # Move the begin of the vector to the beginning of the preamble
+    r_sync = rx_sig[max_idx:]
+
+    return r_sync, pulse_corr, max_idx
+
+r_sync, pulse_corr, max_idx = OFDM_synchronisation_timed(rx_sig, preamble, L_CP, M)
 
 plt.figure()
 plt.plot(np.abs(pulse_corr))
 plt.plot([max_idx, max_idx], [0, np.max(np.abs(pulse_corr))])
-plt.show()
+# plt.show()
 
 
 ###############################################################################
 # 5.2 Demodulate the OFDM signal
 ###############################################################################
 
-# We also demodulates the preamble hence the P+1
-y_with_preamble = OFDM_demodulation(r_sync, P + 1, N_sc, L_CP, M)
-# Remove the first OFDM symbol since its the preamble
-y = y_with_preamble[1:, :]
+@timer_func
+def OFDM_demodulation_timed(r_sync, P, N_sc, L_CP, M):
+    # We also demodulates the preamble hence the P+1
+    y_with_preamble = OFDM_demodulation(r_sync, P + 1, N_sc, L_CP, M)
+    # Remove the first OFDM symbol since its the preamble
+    y = y_with_preamble[1:, :]
+    
+    return y, y_with_preamble
+
+y, y_with_preamble = OFDM_demodulation_timed(r_sync, P, N_sc, L_CP, M)
 
 ###############################################################################
 # 5.3 Perform the OFDM channel estimation
 ###############################################################################
 
-channel_estimate_FD = OFDM_channel_estimate(y, pilots, P, N_sc, L_CP, Nt, Nf)
+@timer_func
+def OFDM_channel_estimate_timed(y, pilots, P, N_sc, L_CP, Nt, Nf):
+    channel_estimate_FD = OFDM_channel_estimate(y, pilots, P, N_sc, L_CP, Nt, Nf)
+    
+    return channel_estimate_FD
+
+channel_estimate_FD = OFDM_channel_estimate_timed(y, pilots, P, N_sc, L_CP, Nt, Nf)
 
 ###############################################################################
 # 5.4 Estimate the data symbols after channel equalization
 ###############################################################################
 
-symbols_hat = np.reshape(OFDM_channel_equalisation(y, channel_estimate_FD), (P * N_sc,))
+@timer_func
+def OFDM_channel_equalisation_timed(y, channel_estimate_FD, P, N_sc):
+    symbols_hat = np.reshape(OFDM_channel_equalisation(y, channel_estimate_FD), (P * N_sc,))
+
+    return symbols_hat
+
+symbols_hat = OFDM_channel_equalisation_timed(y, channel_estimate_FD, P, N_sc)
 
 ###############################################################################
 # 5.5 Extract the information bits from the detected symbols
 ###############################################################################
 
-bits_hat = inverse_mapping(symbols_hat.reshape((P * N_sc,)), const_type)
+@timer_func
+def inverse_mapping_timed(symbols_hat, P, N_sc, const_type):
+    bits_hat = inverse_mapping(symbols_hat.reshape((P * N_sc,)), const_type)
+
+    return bits_hat
+
+bits_hat = inverse_mapping_timed(symbols_hat, P, N_sc, const_type)
 
 """
 #6. Radar processing
@@ -270,9 +318,14 @@ bits_hat = inverse_mapping(symbols_hat.reshape((P * N_sc,)), const_type)
 # 6.1 OFDM radar receiver (rx_sig is already synchronised at the start of the
 # preamble)
 ###############################################################################
-delay_doppler_map = SISO_OFDM_DFRC_RADAR_RX(
-    rx_sig, symbols, L_CP, M, zeropad_N, zeropad_P
-)
+
+@timer_func
+def SISO_OFDM_DFRC_RADAR_RX_timed(rx_sig, symbols, L_CP, M, zeropad_N, zeropad_P):
+    delay_doppler_map = SISO_OFDM_DFRC_RADAR_RX(rx_sig, symbols, L_CP, M, zeropad_N, zeropad_P)
+
+    return delay_doppler_map
+
+delay_doppler_map = SISO_OFDM_DFRC_RADAR_RX_timed(rx_sig, symbols, L_CP, M, zeropad_N, zeropad_P)
 
 """
 # 7. Print and plots
@@ -280,17 +333,14 @@ delay_doppler_map = SISO_OFDM_DFRC_RADAR_RX(
 ###############################################################################
 # 7.0 Print the loaded parameters:
 ###############################################################################
-print("The loaded parameters from the tx file:")
 
-print("P = " + str(MyDic_param["P"]))
-
-print("B = " + str(MyDic_param["B"]))
-
-print("N_sc = " + str(MyDic_param["N_sc"]))
-
-print("L_CP = " + str(MyDic_param["L_CP"]))
-
-print("L = " + str(MyDic_param["L"]))
+if show_results:
+    print("The loaded parameters from the tx file:")
+    print("P = " + str(MyDic_param["P"]))
+    print("B = " + str(MyDic_param["B"]))
+    print("N_sc = " + str(MyDic_param["N_sc"]))
+    print("L_CP = " + str(MyDic_param["L_CP"]))
+    print("L = " + str(MyDic_param["L"]))
 
 ###############################################################################
 # 7.1 Plot the real and imaginary part of the received signal
@@ -301,14 +351,15 @@ plt.plot(np.real(rx_sig))
 plt.subplot(2, 1, 2)
 plt.plot(np.imag(rx_sig))
 plt.title("RX signal")
-plt.show()
+# plt.show()
 
 ###############################################################################
 # 7.2 Print the Bit Error Rate (BER)
 ###############################################################################
 # Note: Here the BER is defined with the data and pilot symbol. It should
 # normally only be computed with the data symbols.
-print("BER: ", np.mean(abs(bits - bits_hat)))
+if show_results:
+    print("BER: ", np.mean(abs(bits - bits_hat)))
 
 ###############################################################################
 # 7.3 Plot the delay-Doppler maps
@@ -323,7 +374,7 @@ plt.figure()
 plt.pcolormesh(delay_axis, Doppler_axis, abs(delay_doppler_map), shading="nearest")
 plt.ylabel("Doppler frequency [Hz]")
 plt.title("Delay-Doppler map")
-plt.show()
+# plt.show()
 
 
 ###############################################################################
@@ -332,10 +383,13 @@ plt.show()
 plt.figure()
 plt.plot(np.real(y), np.imag(y), ".b")
 plt.title("Received constellation (before equalisation)")
-plt.show()
+# plt.show()
 
 plt.figure()
 plt.plot(np.real(symbols_hat), np.imag(symbols_hat), ".b")
 plt.plot(np.real(const), np.imag(const), ".r")
 plt.title("Received constellation")
-plt.show()
+# plt.show()
+
+if show_results:
+    plt.show()

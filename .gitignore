@@ -2,6 +2,9 @@
 # Project Specific #
 ####################
 playground/
+*.npy
+*.dat
+*_sig.txt
 
 ###################
 # PYTHON TEMPLATE #

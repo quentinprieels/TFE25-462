@@ -18,6 +18,7 @@ mpmath==1.3.0
 numba==0.60.0
 numpy==2.0.2
 packaging==24.1
+pandas==2.2.3
 pillow==10.4.0
 platformdirs==4.2.2
 pyparsing==3.1.4
@@ -25,15 +26,17 @@ PyQt5==5.15.11
 PyQt5-Qt5==5.15.15
 PyQt5_sip==12.15.0
 python-dateutil==2.9.0.post0
-# Editable install with no version control (radcomlib==1.0.0)
--e /home/quentin/Documents/Cours/linfo2990/TFE25-462/RADCOM_library
+pytz==2024.2
+-e git+ssh://git@github.com/quentinprieels/TFE25-462.git@8b8c13e81913d449db2e23132ac35cfeed6dedfc#egg=radcomlib&subdirectory=RADCOM_library
 scikit-commpy==0.8.0
 scipy==1.13.1
+seaborn==0.13.2
 setuptools==75.1.0
 six==1.16.0
 sympy==1.13.3
 tomli==2.0.1
 typeguard==4.3.0
 typing_extensions==4.12.2
+tzdata==2024.2
 wheel==0.43.0
 zipp==3.19.2

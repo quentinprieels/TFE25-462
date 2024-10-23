@@ -81,10 +81,17 @@ def generate_tx(tx_sig, filename):
 # 2.1 These parameters define the tranmission and can be changed
 ###############################################################################
 
+# Output folder for the transmission files
+output_folder = "../../experiments/2048/"
+# Check if the folder exists, and if not, create it
+import os
+if not os.path.exists(output_folder):
+    os.makedirs(output_folder)
+
 # Transmission scenario name
 scenario_name = "Setup_40MHz"
 # Number of transmitted pulses (number of OFDM symbols)
-P = 256  # default: P=256
+P = 2048  # default: P=256
 # Bandwidth [Hz]: The maximum available bandwith is 100 MHz
 B = 40e6  # default: B=40MHz
 # Number of subcarriers
@@ -203,13 +210,13 @@ tx_sig = SISO_OFDM_DFRC_TX(symbols, preamble, L_CP, L=L, periodic_preamble=False
 
 # Save the transmission samples in the format for the experimental setup and
 # get the signal length
-sig_len = generate_tx(tx_sig, scenario_name + "_" + "tx_sig.txt")
+sig_len = generate_tx(tx_sig, output_folder + scenario_name + "_" + "tx_sig.txt")
 # Save the transmitted signal the pilot and data symbols
-np.save(scenario_name + "_" + "signal.npy", tx_sig)
+np.save(output_folder + scenario_name + "_" + "signal.npy", tx_sig)
 # Save the pilot and data symbols
-np.save(scenario_name + "_" + "symbols.npy", symbols)
+np.save(output_folder + scenario_name + "_" + "symbols.npy", symbols)
 # Save the preamble for the synchronization
-np.save(scenario_name + "_" + "preamble.npy", preamble)
+np.save(output_folder + scenario_name + "_" + "preamble.npy", preamble)
 # Save the transmission parameters
 MyDic_param = {
     "P": P,
@@ -222,7 +229,7 @@ MyDic_param = {
     "Nf": Nf,
 }
 # Check how to save the Dictionary
-np.save(scenario_name + "_" + "parameters.npy", MyDic_param)
+np.save(output_folder + scenario_name + "_" + "parameters.npy", MyDic_param)
 
 ## Print the sig_len for the execution in the experimental setup
 print("SIG_LEN: ", sig_len)

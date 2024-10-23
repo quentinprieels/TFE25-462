@@ -1,0 +1,39 @@
+
+Creating the usrp device with: name=jerome...
+Using Device: Single USRP:
+  Device: X-Series Device
+  Mboard 0: X310
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: UBX RX
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: UBX TX
+  TX Channel: 1
+    TX DSP: 1
+    TX Dboard: B
+    TX Subdev: UBX TX
+
+Sync Done.
+Actual clock source RX0: external ...
+Actual time source RX0: external ...
+Setting RX Rate: 200.000000 Msps...
+Actual RX Rate: 200.000000 Msps...
+Actual RX0 Freq: 3200.000000 MHz...
+Actual RX0 Gain: 30.000000 dB...
+Actual RX0 Bandwidth: 160.000000 MHz...
+1
+Actual Antenna RX0: TX/RX ...
+Measurement loop starting
+
+First timeout value = 2.900000 s.
+Received packet: 26227200 samples, 2 full secs, 0.500000 frac secs
+Maximal I absolute value: 0.189917
+Maximal Q absolute value: 0.199286
+
+Current measurement time = 0.292702 s
+
+Done!
+
