@@ -17,11 +17,11 @@ The *goal of the thesis* is to *implement on FPGA* several blocks of the OFDM co
 The project is structured as follows:
 
 - `docs/`: contains some documentation related to the project and helpful guides.
+- `experiments/`: contains the source code of the experiments conducted during the project and the results obtained.
 - `RADCOM_library/`: contains the source code of the RADCOM library developed by UCLouvain and used in the project.
 - `src/`
   - `baseline/`: contains the source code of the baseline implementation of the OFDM chain.
-- `experiments/`: contains the source code of the experiments conducted during the project.
-- `results/`: contains the results of experiments conducted during the project.
+- `uhd`: contains the source code of the UHD library used to program the USRP devices. It is a submodule pointing to the [UHD repository](https://github.com/EttusResearch/uhd).
 
 ## Student, promotors and teaching assistants
 

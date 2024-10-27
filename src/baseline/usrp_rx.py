@@ -101,7 +101,7 @@ rx_sig_filename = sys.argv[2] or "rx_sig_rx.dat"
 # Transmission scenario name
 scenario_name = "Setup_40MHz"
 # Show graphs
-show_results = False
+show_results = True
 
 # Load the parameters for the given scenario
 MyDic_param = np.load(input_folder + scenario_name + "_" + "parameters.npy", allow_pickle=True).item()
@@ -286,6 +286,8 @@ def OFDM_channel_estimate_timed(y, pilots, P, N_sc, L_CP, Nt, Nf):
 
 channel_estimate_FD = OFDM_channel_estimate_timed(y, pilots, P, N_sc, L_CP, Nt, Nf)
 
+# !End : comm and radar processing
+
 ###############################################################################
 # 5.4 Estimate the data symbols after channel equalization
 ###############################################################################
@@ -325,7 +327,7 @@ def SISO_OFDM_DFRC_RADAR_RX_timed(rx_sig, symbols, L_CP, M, zeropad_N, zeropad_P
 
     return delay_doppler_map
 
-delay_doppler_map = SISO_OFDM_DFRC_RADAR_RX_timed(rx_sig, symbols, L_CP, M, zeropad_N, zeropad_P)
+delay_doppler_map = SISO_OFDM_DFRC_RADAR_RX_timed(r_sync, symbols, L_CP, M, zeropad_N, zeropad_P)
 
 """
 # 7. Print and plots

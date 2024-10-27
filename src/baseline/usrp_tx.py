@@ -91,7 +91,7 @@ if not os.path.exists(output_folder):
 # Transmission scenario name
 scenario_name = "Setup_40MHz"
 # Number of transmitted pulses (number of OFDM symbols)
-P = 2048  # default: P=256
+P = 256  # default: P=256
 # Bandwidth [Hz]: The maximum available bandwith is 100 MHz
 B = 40e6  # default: B=40MHz
 # Number of subcarriers
