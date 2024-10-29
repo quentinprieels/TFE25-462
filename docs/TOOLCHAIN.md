@@ -68,6 +68,20 @@ The AR76780 Patch for Vivado 2021.1 is required to work with the USRP devices. T
 
 2. Extract the content of the archive to the directory where Vivado is installed, under the `patches/AR76780` directory. To do so, run the following commands. If you installed Vivado at the recommended directory, the patch should be installed in `/opt/Xilinx/Vivado/2021.1/patches/AR76780/vivado/...`.
 
+## GNU Radio
+
+GNU Radio is an open-source software development toolkit that provides signal processing blocks to implement software radios. It is used to create the flowgraph that will be executed on the USRP device.
+
+### Install GNU Radio
+
+To install GNU Radio, follow the instructions provided by GNU Radio [here](https://wiki.gnuradio.org/index.php/InstallingGR).
+
+If you use Arch Linux, you can install GNU Radio from the AUR repository. To do so, run the following command:
+
+```bash
+yay -S gnuradio
+```
+
 ## UHD
 
 The UHD library (USRP Hardware Driver) is used to communicate with the USRP devices.

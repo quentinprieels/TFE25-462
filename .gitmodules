@@ -1,6 +1,6 @@
 [submodule "uhd"]
 	path = uhd
 	url = https://github.com/EttusResearch/uhd
-[submodule "gr-ettus"]
-	path = gr-ettus
-	url = git@github.com:EttusResearch/gr-ettus.git
+[submodule "gnuradio"]
+	path = gnuradio
+	url = https://github.com/gnuradio/gnuradio
