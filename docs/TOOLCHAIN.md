@@ -74,8 +74,6 @@ The UHD library (USRP Hardware Driver) is used to communicate with the USRP devi
 
 ### Clone the UHD repository
 
-To install UHD, follow the steps below:
-
 If you cloned the current repository, then you have normally already installed the UHD library, because it is a submodule of the repository. If you do not find this submodule, try to fetch it by running the following command:
 
 ```bash
@@ -85,7 +83,7 @@ git submodule update --init --recursive
 If you do not want to use the submodule, you can install the UHD library by cloning it from the official repository, available on GitHub [here](https://github.com/EttusResearch/uhd):
 
 ```bash
-git clone git@github.com:EttusResearch/uhd.git
+git clone git@github.com:EttusResearch/uhd.git uhd
 ```
 
 ### Install UHD
@@ -96,6 +94,24 @@ If you use Arch Linux, you can install the UHD library from the AUR repository. 
 
 ```bash
 yay -S libuhd
+```
+
+## gr-ettus
+
+gr-ettus is a GNU Radio module that provides blocks to communicate with the USRP devices. It is used to create the flowgraph that will be executed on the USRP device.
+
+### Clone the gr-ettus repository
+
+If you cloned the current repository, then you have normally already installed the gr-ettus library, because it is a submodule of the repository. If you do not find this submodule, try to fetch it by running the following command:
+
+```bash
+git submodule update --init --recursive
+```
+
+If you do not want to use the submodule, you can install the gr-ettus library by cloning it from the official repository, available on GitHub [here](https://github.com/ettusresearch/gr-ettus).
+
+```bash
+git clone git@github.com:EttusResearch/gr-ettus.git gr-ettus
 ```
 
 ## Setup the environment
