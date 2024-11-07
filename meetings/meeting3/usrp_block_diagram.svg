@@ -1,0 +1,1286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --><svg
+    xmlns:x="http://ns.adobe.com/Extensibility/1.0/" xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/"
+    xmlns:graph="http://ns.adobe.com/Graphs/1.0/" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" class="svg" version="1.0" id="diagram_copy_5" x="0px" y="0px"
+    width="885.899px" height="417.598px" viewBox="0 0 885.899 417.598" enable-background="new 0 0 885.899 417.598"
+    xml:space="preserve" preserveAspectRatio="xMidYMid meet" zoomAndPan="magnify" contentScriptType="text/ecmascript"
+    contentStyleType="text/css">
+    <switch>
+        <foreignObject requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" x="0" y="0" width="1" height="1"
+            content="structured text">
+
+        </foreignObject>
+        <g i:extraneous="self">
+            <symbol id="New_Symbol" viewBox="-8.536 -8.533 17.071 17.065" preserveAspectRatio="xMidYMid meet">
+                <g>
+                    <rect x="-8.286" y="-8.283" fill="#DEF0F6" stroke="#0067AB" stroke-width="0.5" width="16.571"
+                        height="16.565" />
+                    <path fill="none" stroke="#0067AB" stroke-width="0.5" stroke-miterlimit="3.8636"
+                        d="M6.546,1.702c0,0-2.85-3.829-6.254,0      L0.287,1.708c-3.404,3.83-6.253,0-6.253,0" />
+                    <path fill="none" stroke="#0067AB" stroke-width="0.5" stroke-miterlimit="3.8636"
+                        d="M6.546-2.113c0,0-2.85-3.832-6.254,0      L0.287-2.111c-3.404,3.832-6.253,0-6.253,0" />
+                    <line fill="none" stroke="#0067AB" stroke-width="0.5" x1="-0.524" y1="0.91" x2="1.104" y2="2.643" />
+                </g>
+            </symbol>
+            <symbol id="New_Symbol_10" viewBox="-8.616 -9.616 17.232 17.232" preserveAspectRatio="xMidYMid meet">
+                <circle fill="#DDF0F6" stroke="#0169AC" stroke-width="0.5" cx="0" cy="-1" r="8.366" />
+                <path fill="none" stroke="#0169AC" stroke-width="0.5554"
+                    d="M7.002-1.091C6.82-3.182,5.456-4.546,3.456-4.546     C1.637-4.546,0.182-3.182,0-1.091s-1.819,3.456-3.456,3.456c-1.91,0-3.365-1.546-3.456-3.456" />
+            </symbol>
+            <symbol id="New_Symbol_11" viewBox="-8.952 -19.63 17.905 39.261" preserveAspectRatio="xMidYMid meet">
+                <rect x="-8.696" y="-19.374" fill="#DEF0F6" stroke="#0067AB" stroke-width="0.5125" width="17.392"
+                    height="38.748" />
+                <line fill="none" stroke="#0068AB" stroke-width="0.5" stroke-miterlimit="3.8636" x1="-4.859" y1="-13.93"
+                    x2="-8.696" y2="-13.93" />
+                <line fill="none" stroke="#0068AB" stroke-width="0.5" stroke-miterlimit="3.8636" x1="-8.696" y1="14.091"
+                    x2="-4.859" y2="14.091" />
+                <line fill="none" stroke="#0068AB" stroke-width="0.5" stroke-miterlimit="3.8636" x1="4.34" y1="0.256"
+                    x2="-2.07" y2="8.778" />
+                <line fill="none" stroke="#0068AB" stroke-width="0.5" stroke-miterlimit="3.8636" x1="8.696" y1="0.072"
+                    x2="4.484" y2="0.072" />
+                <circle fill="#FFFFFF" stroke="#0069AA" stroke-width="0.5" cx="4.661" cy="0.072" r="1.697" />
+                <circle fill="#0068AB" stroke="#0069AA" stroke-width="0.5" cx="-4.389" cy="14.091" r="1.697" />
+                <circle fill="#0068AB" stroke="#0069AA" stroke-width="0.5" cx="-4.389" cy="-13.775" r="1.697" />
+            </symbol>
+            <symbol id="New_Symbol_12" viewBox="-33.273 -9.59 66.547 19.182" preserveAspectRatio="xMidYMid meet">
+                <polyline fill="none" stroke="#F6921E" stroke-width="0.6"
+                    points="31.475,-1.716 31.475,9.291 -20.78,9.291 -20.78,3.782    " />
+                <g>
+                    <rect x="1.311" y="-9.335" fill="#DCEFF5" stroke="#0067AB" stroke-width="0.5" width="23.85"
+                        height="13.112" />
+                    <g><text transform="matrix(1 0 0 -1 5.6509 -5.3379)" fill="#0067AC" font-family_old="'Helvetica'"
+                            font-family="'Helvetica'" font-weight="medium" font-size="7px">VCO</text></g>
+                </g>
+                <g>
+                    <rect x="-33.022" y="-9.339" fill="#DCEFF5" stroke="#0068AB" stroke-width="0.5" width="23.766"
+                        height="13.116" />
+                    <g><text transform="matrix(1 0 0 -1 -27.1338 -5.3379)" fill="#0067AC" font-family_old="'Helvetica'"
+                            font-family="'Helvetica'" font-weight="medium" font-size="7px">PLL</text></g>
+                </g>
+                <circle fill="#F6921E" stroke="#F6921E" stroke-width="0.6" stroke-miterlimit="3.8636" cx="31.476"
+                    cy="-2.779" r="1.497" />
+            </symbol>
+            <symbol id="New_Symbol_13" viewBox="-8.748 -8.262 17.495 16.523" preserveAspectRatio="xMidYMid meet">
+                <rect x="-8.497" y="-8.012" fill="#DCEFF5" stroke="#0068AB" stroke-width="0.5" width="16.995"
+                    height="16.023" />
+                <line fill="none" stroke="#0068AB" stroke-width="0.5" stroke-miterlimit="3.8636" x1="8.498" y1="8.025"
+                    x2="-8.483" y2="-8.026" />
+                <g>
+                    <g><text transform="matrix(1 -1.000000e-05 1.000000e-05 -1 -5.4288 1.6023)" fill="#0067AC"
+                            font-family_old="'Helvetica'" font-family="'Helvetica'" font-weight="medium"
+                            font-size="6.5px">0</text></g>
+                </g>
+                <g>
+                    <g><text transform="matrix(1 -1.000000e-05 1.000000e-05 -1 -0.5791 -6.5599)" fill="#0067AC"
+                            font-family_old="'Helvetica'" font-family="'Helvetica'" font-weight="medium"
+                            font-size="6.5px">90</text></g>
+                </g>
+            </symbol>
+            <symbol id="New_Symbol_23_1_" viewBox="-8.827 -8.506 17.655 17.014" preserveAspectRatio="xMidYMid meet">
+                <g>
+                    <g>
+                        <rect x="-8.577" y="-8.256" fill="#DCEFF5" stroke="#0068AB" stroke-width="0.5" width="17.155"
+                            height="16.514" />
+                    </g>
+                    <line fill="none" stroke="#0068AB" stroke-width="0.5" stroke-miterlimit="3.8636" x1="-8.66"
+                        y1="0.174" x2="-4.104" y2="0.174" />
+                    <line fill="none" stroke="#0068AB" stroke-width="0.5" stroke-miterlimit="3.8636" x1="3.518"
+                        y1="8.257" x2="3.518" y2="4.812" />
+                    <line fill="none" stroke="#0068AB" stroke-width="0.5" stroke-miterlimit="3.8636" x1="3.518"
+                        y1="-4.906" x2="3.518" y2="-8.256" />
+                </g>
+                <circle fill="#0068AB" stroke="#0069AA" stroke-width="0.5" cx="-4.053" cy="0.174" r="1.761" />
+                <circle fill="#FFFFFF" stroke="#0069AA" stroke-width="0.5" cx="3.518" cy="-4.907" r="1.697" />
+                <line fill="none" stroke="#0068AB" stroke-width="0.5" stroke-miterlimit="3.8636" x1="-4.052" y1="0.174"
+                    x2="3.089" y2="4.559" />
+                <circle fill="#FFFFFF" stroke="#0069AA" stroke-width="0.5" cx="3.518" cy="4.812" r="1.697" />
+            </symbol>
+            <symbol id="New_Symbol_24" viewBox="-8.827 -8.507 17.655 17.014" preserveAspectRatio="xMidYMid meet">
+                <g>
+                    <g>
+                        <rect x="-8.577" y="-8.257" fill="#DCEFF5" stroke="#0068AB" stroke-width="0.5" width="17.155"
+                            height="16.514" />
+                    </g>
+                    <line fill="none" stroke="#0068AB" stroke-width="0.5" stroke-miterlimit="3.8636" x1="-8.66"
+                        y1="0.174" x2="-4.104" y2="0.174" />
+                    <line fill="none" stroke="#0068AB" stroke-width="0.5" stroke-miterlimit="3.8636" x1="8.578"
+                        y1="4.812" x2="3.529" y2="4.812" />
+                    <line fill="none" stroke="#0068AB" stroke-width="0.5" stroke-miterlimit="3.8636" x1="3.518"
+                        y1="-4.907" x2="3.518" y2="-8.257" />
+                </g>
+                <circle fill="#0068AB" stroke="#0069AA" stroke-width="0.5" cx="-4.053" cy="0.174" r="1.761" />
+                <circle fill="#FFFFFF" stroke="#0069AA" stroke-width="0.5" cx="3.518" cy="-4.907" r="1.697" />
+                <line fill="none" stroke="#0068AB" stroke-width="0.5" stroke-miterlimit="3.8636" x1="-4.052" y1="0.174"
+                    x2="3.089" y2="4.559" />
+                <circle fill="#FFFFFF" stroke="#0069AA" stroke-width="0.5" cx="3.518" cy="4.811" r="1.697" />
+            </symbol>
+            <symbol id="New_Symbol_3" viewBox="-5.658 -10.558 11.316 21.118" preserveAspectRatio="xMidYMid meet">
+                <path fill="#DCEFF5" stroke="#0068AB" stroke-width="0.5"
+                    d="M0,10.31c-2.986,0-5.409-2.42-5.409-5.403     c0-2.986,2.423-5.412,5.409-5.412c2.986,0,5.407,2.426,5.407,5.412C5.408,7.89,2.987,10.31,0,10.31" />
+                <path fill="#FFFFFF" stroke="#0068AB" stroke-width="0.5"
+                    d="M0,3.606c-0.715,0-1.299,0.582-1.299,1.298     c0,0.717,0.583,1.299,1.299,1.299c0.714,0,1.298-0.583,1.298-1.299C1.298,4.188,0.715,3.606,0,3.606L0,3.606z" />
+                <line fill="none" stroke="#0068AB" stroke-width="0.5" stroke-miterlimit="3.8636" x1="0.075" y1="-7.261"
+                    x2="0.075" y2="-0.754" />
+                <polyline fill="#DCEFF5" stroke="#0068AB" stroke-width="0.5"
+                    points="0.075,-6.539 3.311,-6.539 0.075,-10.182 -3.164,-6.539      0.075,-6.539    " />
+            </symbol>
+            <symbol id="New_Symbol_4" viewBox="-9.445 -9.195 18.89 18.39" preserveAspectRatio="xMidYMid meet">
+                <path fill="#DEF0F6" stroke="#0067AC" stroke-width="0.5"
+                    d="M6.501-6.325c-3.59-3.493-9.412-3.493-13.004,0     c-3.591,3.494-3.591,9.157,0,12.65c3.591,3.492,9.414,3.493,13.005,0C10.093,2.831,10.093-2.833,6.501-6.325z" />
+                <g>
+                    <line fill="none" stroke="#0067AC" stroke-width="0.5" x1="-5.079" y1="4.94" x2="5.078"
+                        y2="-4.941" />
+                    <line fill="none" stroke="#0067AC" stroke-width="0.5" x1="4.911" y1="4.778" x2="-4.912"
+                        y2="-4.778" />
+                </g>
+            </symbol>
+            <g id="New_Symbol_copy_5" />
+            <g id="New_Symbol_18_copy_5" />
+            <g id="Jumpers_copy_5" />
+            <g id="Jumpers_copy" />
+            <g id="New_Symbol_23" />
+            <rect x="636.162" y="13.729" fill="none" stroke="#666666" stroke-width="0.625"
+                stroke-dasharray="3.125,3.125" width="141.456" height="323.054" />
+            <use xlink:href="#New_Symbol_23_1_" width="17.655" height="17.014" x="-8.827" y="-8.506"
+                transform="matrix(1.25 0 0 -1.25 259.958 88.2358)" overflow="visible" xlink:type="simple"
+                xlink:show="embed" xlink:actuate="onLoad" />
+            <use xlink:href="#New_Symbol_23_1_" width="17.655" height="17.014" x="-8.827" y="-8.506"
+                transform="matrix(-1.25 0 0 -1.25 397.9304 88.8936)" overflow="visible" xlink:type="simple"
+                xlink:show="embed" xlink:actuate="onLoad" />
+            <path fill="#F6921E"
+                d="M488.004,90.766c-1.179,0-2.14-0.959-2.14-2.139c0-1.181,0.961-2.141,2.14-2.141    c1.177,0,2.139,0.96,2.139,2.141C490.143,89.807,489.181,90.766,488.004,90.766L488.004,90.766z" />
+            <polyline fill="none" stroke="#F6921E" stroke-width="0.75"
+                points="498.106,136.217 498.106,192.015 219.618,192.015   " />
+            <polyline fill="none" stroke="#F6921E" stroke-width="0.75"
+                points="521.615,88.655 498.106,88.655 498.106,123.358   " />
+            <line fill="none" stroke="#F6921E" stroke-width="0.75" x1="233.212" y1="366.127" x2="219.618"
+                y2="366.127" />
+            <polyline fill="none" stroke="#F6921E" stroke-width="0.75"
+                points="522.874,262.221 494.356,262.221 494.356,297.114   " />
+            <path fill="none" stroke="#F6921E" stroke-width="0.75"
+                d="M219.618,254.155l0,1.511c2.544,0,4.93,2.166,4.93,4.841    c0.001,2.674-2.384,4.843-4.928,4.843h-0.002l0,2.919" />
+            <path fill="none" stroke="#F6921E" stroke-width="0.75"
+                d="M494.365,296.472v2.137c2.544,0,4.93,2.166,4.93,4.841    c0.001,2.674-2.384,4.843-4.928,4.843h-0.002l0.002,57.834h-260.06" />
+            <path fill="none" stroke="#F6921E" stroke-width="0.75"
+                d="M498.115,122.675v2.137c2.544,0,6.18,2.166,6.18,4.841    c0.001,2.674-3.634,4.843-6.178,4.843h-0.002l0,2.847" />
+            <g>
+                <line fill="none" stroke="#F6921E" stroke-width="0.75" x1="697.9" y1="303.569" x2="626.73"
+                    y2="303.569" />
+                <polygon fill="#F6921E" points="695.261,300.405 695.261,303.569 695.261,306.733 703.17,303.569    " />
+            </g>
+            <g>
+                <polyline fill="none" stroke="#F6921E" stroke-width="0.75"
+                    points="393.453,79.463 393.452,55.279 264.355,55.279      264.355,73.116    " />
+                <polygon fill="#F6921E" points="267.52,70.005 264.356,70.005 261.192,70.005 264.356,77.914    " />
+            </g>
+            <g>
+                <polygon fill="#F6921E" points="426.616,242.969 423.453,242.969 420.289,242.969 423.452,250.879    " />
+                <polyline fill="none" stroke="#F6921E" stroke-width="0.75"
+                    points="254.355,252.824 254.355,229.286 423.452,229.286      423.453,245.47    " />
+            </g>
+            <g>
+                <g>
+                    <polygon fill="#F6921E"
+                        points="388.226,126.251 388.226,123.087 388.226,119.923 380.316,123.087     " />
+                </g>
+                <polyline fill="none" stroke="#F6921E" stroke-width="0.75"
+                    points="393.535,99.223 393.535,123.086 385.644,123.086    " />
+            </g>
+            <g>
+                <polyline fill="none" stroke="#F6921E" stroke-width="0.75"
+                    points="264.209,295.843 254.355,295.844 254.355,271.313    " />
+                <polygon fill="#F6921E" points="260.516,292.679 260.516,295.843 260.516,299.007 268.426,295.843    " />
+            </g>
+            <g>
+                <line fill="none" stroke="#F6921E" stroke-width="0.75" x1="98.698" y1="243.44" x2="98.698"
+                    y2="95.066" />
+                <polygon fill="#F6921E" points="101.898,240.436 98.734,240.436 95.57,240.436 98.734,248.346    " />
+            </g>
+            <line fill="none" stroke="#F6921E" stroke-width="0.75" x1="58.975" y1="272.279" x2="89.036" y2="272.279" />
+            <polygon fill="#F6921E" points="86.186,269.112 86.186,272.276 86.186,275.44 94.095,272.276   " />
+            <g>
+                <polyline fill="none" stroke="#F6921E" stroke-width="0.75"
+                    points="199,246.991 199,229.58 173.336,229.58    " />
+                <polygon fill="#F6921E" points="202.164,242.567 199,242.567 195.836,242.567 199,250.477    " />
+            </g>
+            <g>
+                <line fill="none" stroke="#F6921E" stroke-width="0.75" x1="208.392" y1="260.773" x2="233.907"
+                    y2="260.773" />
+                <polygon fill="#F6921E" points="231.223,257.611 231.223,260.775 231.223,263.939 239.133,260.775    " />
+            </g>
+            <g>
+                <line fill="none" stroke="#F6921E" stroke-width="0.75" x1="446.831" y1="261.393" x2="434.519"
+                    y2="261.393" />
+                <polygon fill="#F6921E" points="443.029,258.229 443.029,261.393 443.029,264.557 450.939,261.393    " />
+            </g>
+            <g>
+                <line fill="none" stroke="#F6921E" stroke-width="0.75" x1="483.317" y1="262.221" x2="474.445"
+                    y2="262.221" />
+                <polygon fill="#F6921E" points="479.625,259.057 479.625,262.221 479.625,265.385 487.535,262.221    " />
+            </g>
+            <g>
+                <polyline fill="none" stroke="#F6921E" stroke-width="0.75"
+                    points="151.982,229.58 118.363,229.58 118.363,264.389    " />
+                <polygon fill="#F6921E" points="149.987,232.744 149.987,229.58 149.987,226.416 157.897,229.58    " />
+            </g>
+            <g>
+                <polyline fill="none" stroke="#F6921E" stroke-width="0.75"
+                    points="132.726,295.217 118.363,295.217 118.363,270.78    " />
+                <polygon fill="#F6921E" points="129.987,298.381 129.987,295.217 129.987,292.053 137.897,295.217    " />
+            </g>
+            <g>
+                <line fill="none" stroke="#F6921E" stroke-width="0.75" x1="166.142" y1="295.379" x2="151.208"
+                    y2="295.379" />
+                <polygon fill="#F6921E" points="162.187,298.543 162.187,295.379 162.187,292.215 170.097,295.379    " />
+            </g>
+            <g>
+                <polyline fill="none" stroke="#F6921E" stroke-width="0.75"
+                    points="198.844,274.528 198.844,295.994 179.271,295.994    " />
+                <polygon fill="#F6921E" points="202.091,279.421 198.927,279.421 195.763,279.421 198.927,271.511    " />
+            </g>
+            <g>
+                <line fill="none" stroke="#F6921E" stroke-width="0.75" x1="101.868" y1="88.086" x2="129.904"
+                    y2="88.086" />
+                <polygon fill="#F6921E" points="113.17,91.216 113.17,88.052 113.17,84.888 105.26,88.052    " />
+            </g>
+            <g>
+                <g>
+                    <g>
+                        <g><text transform="matrix(1 0 0 1 -2.288818e-04 97.5263)" fill="#0067AB"
+                                font-family_old="'Helvetica'" font-family="'Helvetica'" font-weight="medium"
+                                font-size="8.75px">TX1/RX1</text></g>
+                    </g>
+                </g>
+            </g>
+            <g>
+                <g>
+                    <g>
+                        <g><text transform="matrix(1 -7.300071e-04 7.300071e-04 1 18.4797 275.0768)" fill="#0067AB"
+                                font-family_old="'Helvetica'" font-family="'Helvetica'" font-weight="medium"
+                                font-size="8.7499px">RX2</text></g>
+                    </g>
+                </g>
+            </g>
+            <g>
+                <g>
+                    <g>
+                        <g><text transform="matrix(1 0 0 1 309.2151 215.0781)">
+                                <tspan x="0" y="0" fill="#0067AB" font-family_old="'Helvetica'"
+                                    font-family="'Helvetica'" font-weight="medium" font-size="8.75px">Direct Path
+                                </tspan>
+                                <tspan x="-12.154" y="10.5" fill="#0067AB" font-family_old="'Helvetica'"
+                                    font-family="'Helvetica'" font-weight="medium" font-size="8.75px">500 MHz - 6 GHz
+                                </tspan>
+                            </text></g>
+                    </g>
+                </g>
+            </g>
+            <use xlink:href="#New_Symbol" width="17.071" height="17.065" x="-8.536" y="-8.533"
+                transform="matrix(1.2813 0 0 -1.2813 180.5211 295.3792)" overflow="visible" xlink:type="simple"
+                xlink:show="embed" xlink:actuate="onLoad" />
+            <g>
+                <line fill="none" stroke="#F6921E" stroke-width="0.75" x1="413.142" y1="88.626" x2="487.739"
+                    y2="88.626" />
+                <polygon fill="#F6921E" points="416.834,91.79 416.834,88.626 416.834,85.462 408.925,88.626    " />
+            </g>
+            <g>
+                <line fill="none" stroke="#F6921E" stroke-width="0.75" x1="303.482" y1="295.843" x2="290.028"
+                    y2="295.844" />
+                <polygon fill="#F6921E" points="299.789,292.679 299.789,295.843 299.789,299.007 307.699,295.843    " />
+            </g>
+            <g>
+                <line fill="none" stroke="#F6921E" stroke-width="0.75" x1="348.89" y1="295.843" x2="320.953"
+                    y2="295.844" />
+                <line fill="none" stroke="#F6921E" stroke-width="0.75" x1="392.009" y1="295.843" x2="376.296"
+                    y2="295.843" />
+                <polygon fill="#F6921E" points="388.316,292.679 388.316,295.843 388.316,299.007 396.226,295.843    " />
+                <polygon fill="#F6921E" points="347.066,292.679 347.066,295.843 347.066,299.007 354.976,295.843    " />
+            </g>
+            <g>
+                <polygon fill="#F6921E" points="420.255,280.071 423.419,280.071 426.583,280.071 423.419,272.161    " />
+            </g>
+            <g>
+                <line fill="none" stroke="#F6921E" stroke-width="0.75" x1="156.637" y1="88.086" x2="249.133"
+                    y2="88.086" />
+                <polygon fill="#F6921E" points="158.337,91.25 158.337,88.086 158.337,84.922 150.428,88.086    " />
+            </g>
+            <g>
+                <line fill="none" stroke="#F6921E" stroke-width="0.75" x1="64.888" y1="94.079" x2="76.118"
+                    y2="94.079" />
+                <polygon fill="#F6921E" points="68.843,97.243 68.843,94.079 68.843,90.915 60.933,94.079    " />
+                <polygon fill="#F6921E" points="75.364,90.917 75.364,94.08 75.364,97.244 83.273,94.081    " />
+            </g>
+            <use xlink:href="#New_Symbol_3" width="11.316" height="21.118" x="-5.658" y="-10.558"
+                transform="matrix(1.25 0 0 -1.25 53.9998 100.2661)" overflow="visible" xlink:type="simple"
+                xlink:show="embed" xlink:actuate="onLoad" />
+            <g>
+                <g>
+                    <line fill="none" stroke="#F6921E" stroke-width="0.75" x1="233.838" y1="336.211" x2="219.618"
+                        y2="336.211" />
+                    <polyline fill="none" stroke="#F6921E" stroke-width="0.75"
+                        points="319.391,306.677 319.391,336.211 241.181,336.211     " />
+                </g>
+            </g>
+            <polyline fill="none" stroke="#F6921E" stroke-width="0.75"
+                points="423.419,276.379 423.419,295.843 407.214,295.843   " />
+            <use xlink:href="#New_Symbol_3" width="11.316" height="21.118" id="XMLID_12_" x="-5.658" y="-10.558"
+                transform="matrix(1.25 0 0 -1.25 53.9998 278.4039)" overflow="visible" xlink:type="simple"
+                xlink:show="embed" xlink:actuate="onLoad" />
+            <use xlink:href="#New_Symbol" width="17.071" height="17.065" x="-8.536" y="-8.533"
+                transform="matrix(1.2813 0 0 -1.2813 278.9829 295.8433)" overflow="visible" xlink:type="simple"
+                xlink:show="embed" xlink:actuate="onLoad" />
+            <use xlink:href="#New_Symbol" width="17.071" height="17.065" x="-8.536" y="-8.533"
+                transform="matrix(1.2813 0 0 -1.2813 406.8422 295.8433)" overflow="visible" xlink:type="simple"
+                xlink:show="embed" xlink:actuate="onLoad" />
+            <g>
+                <polyline fill="none" stroke="#F6921E" stroke-width="0.75"
+                    points="277.117,123.087 264.355,123.087 264.355,103.989    " />
+                <polygon fill="#F6921E" points="261.192,106.4 264.356,106.4 267.52,106.4 264.356,98.49    " />
+            </g>
+            <g>
+                <line fill="none" stroke="#F6921E" stroke-width="0.75" x1="329.391" y1="134.268" x2="329.391"
+                    y2="162.251" />
+            </g>
+            <g>
+                <g>
+                    <g>
+                        <g><text transform="matrix(1 0 0 1 307.9641 37.7822)" fill="#0067AB"
+                                font-family_old="'Helvetica'" font-family="'Helvetica'" font-weight="medium"
+                                font-size="8.75px">Direct Path</text></g>
+                    </g>
+                </g>
+            </g>
+            <g>
+                <g>
+                    <g>
+                        <g><text transform="matrix(1 0 0 1 295.8113 50.8788)" fill="#0067AB"
+                                font-family_old="'Helvetica'" font-family="'Helvetica'" font-weight="medium"
+                                font-size="8.75px">500 MHz - 6 GHz</text></g>
+                    </g>
+                </g>
+            </g>
+            <g>
+                <g>
+                    <g>
+                        <g><text transform="matrix(1 0 0 1 294.3875 108.412)" fill="#0067AB"
+                                font-family_old="'Helvetica'" font-family="'Helvetica'" font-weight="medium"
+                                font-size="8.75px">10 MHz - 500 MHz</text></g>
+                    </g>
+                </g>
+            </g>
+            <g>
+                <line fill="none" stroke="#F6921E" stroke-width="0.75" x1="317.89" y1="123.087" x2="301.702"
+                    y2="123.087" />
+                <polygon fill="#F6921E" points="306.259,126.25 306.259,123.086 306.259,119.922 298.349,123.086    " />
+            </g>
+            <g>
+                <line fill="none" stroke="#F6921E" stroke-width="0.75" x1="358.493" y1="123.087" x2="344.358"
+                    y2="123.087" />
+                <polygon fill="#F6921E" points="348.996,126.25 348.996,123.086 348.996,119.922 341.086,123.086    " />
+            </g>
+            <use xlink:href="#New_Symbol_4" width="18.89" height="18.39" x="-9.445" y="-9.195"
+                transform="matrix(1.25 0 0 -1.25 329.3914 123.0868)" overflow="visible" xlink:type="simple"
+                xlink:show="embed" xlink:actuate="onLoad" />
+            <use xlink:href="#New_Symbol" width="17.071" height="17.065" x="-8.536" y="-8.533"
+                transform="matrix(1.2813 0 0 -1.2813 287.7329 123.0868)" overflow="visible" xlink:type="simple"
+                xlink:show="embed" xlink:actuate="onLoad" />
+            <use xlink:href="#New_Symbol" width="17.071" height="17.065" x="-8.536" y="-8.533"
+                transform="matrix(1.2813 0 0 -1.2813 369.3422 123.0868)" overflow="visible" xlink:type="simple"
+                xlink:show="embed" xlink:actuate="onLoad" />
+            <g>
+                <polygon fill="#DCEFF5" stroke="#0068AB" stroke-width="0.625"
+                    points="594.351,313.765 617.445,313.765 626.73,303.642      617.445,293.238 594.351,293.238    " />
+                <g><text transform="matrix(1 0 0 1 599.3899 306.2831)" fill="#0067AC" font-family_old="'Helvetica'"
+                        font-family="'Helvetica'" font-weight="medium" font-size="8.75px">ADC</text></g>
+                <g>
+                    <g>
+                        <g>
+                            <g><text transform="matrix(1 0 0 1 591.384 325.0038)" fill="#0067AB"
+                                    font-family_old="'Helvetica'" font-family="'Helvetica'" font-weight="medium"
+                                    font-size="8.75px">200 MS/s</text></g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g>
+                <line fill="none" stroke="#F6921E" stroke-width="0.75" x1="591.764" y1="221.603" x2="572.466"
+                    y2="221.603" />
+                <polygon fill="#F6921E" points="586.537,218.188 586.537,221.352 586.537,224.515 594.446,221.352    " />
+            </g>
+            <g>
+                <line fill="none" stroke="#F6921E" stroke-width="0.75" x1="547.119" y1="222.602" x2="532.413"
+                    y2="222.602" />
+                <polygon fill="#F6921E" points="545.437,219.438 545.437,222.602 545.437,225.765 553.347,222.602    " />
+            </g>
+            <g>
+                <polygon fill="#F6921E" points="502.968,219.438 502.968,222.602 502.968,225.765 510.878,222.602    " />
+                <polyline fill="none" stroke="#F6921E" stroke-width="0.75"
+                    points="507.803,303.513 487.535,303.513 487.535,222.602      507.097,222.602    " />
+            </g>
+            <g>
+                <line fill="none" stroke="#F6921E" stroke-width="0.75" x1="548.86" y1="303.513" x2="528.418"
+                    y2="303.513" />
+                <polygon fill="#F6921E" points="545.316,300.349 545.316,303.513 545.316,306.677 553.226,303.513    " />
+                <polygon fill="#F6921E" points="502.968,300.349 502.968,303.513 502.968,306.677 510.878,303.513    " />
+            </g>
+            <g>
+                <line fill="none" stroke="#F7941E" stroke-width="0.75" x1="588.745" y1="303.531" x2="557.056"
+                    y2="303.651" />
+                <g>
+                    <polygon fill="#F6921E"
+                        points="586.361,300.405 586.38,303.569 586.399,306.733 594.29,303.522     " />
+                </g>
+                <polygon fill="#F6921E" points="639.943,219.689 639.943,222.853 639.943,226.017 647.852,222.854    " />
+                <g>
+                    <polygon fill="#F6921E"
+                        points="639.39,300.405 639.409,303.569 639.428,306.733 647.319,303.522     " />
+                </g>
+            </g>
+            <line fill="none" stroke="#F6921E" stroke-width="0.75" x1="522.865" y1="226.634" x2="522.864"
+                y2="252.919" />
+            <line fill="none" stroke="#F6921E" stroke-width="0.75" x1="522.865" y1="272.088" x2="522.864"
+                y2="292.647" />
+            <use xlink:href="#New_Symbol_13" width="17.495" height="16.523" x="-8.748" y="-8.262"
+                transform="matrix(1.25 0 0 -1.25 522.8647 262.1878)" overflow="visible" xlink:type="simple"
+                xlink:show="embed" xlink:actuate="onLoad" />
+            <use xlink:href="#New_Symbol_4" width="18.89" height="18.39" x="-9.445" y="-9.195"
+                transform="matrix(1.25 0 0 -1.25 522.8655 303.6913)" overflow="visible" xlink:type="simple"
+                xlink:show="embed" xlink:actuate="onLoad" />
+            <g>
+                <use xlink:href="#New_Symbol" width="17.071" height="17.065" x="-8.536" y="-8.533"
+                    transform="matrix(1.2812 0 0 -1.2813 564.2723 303.5951)" overflow="visible" xlink:type="simple"
+                    xlink:show="embed" xlink:actuate="onLoad" />
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g><text transform="matrix(1 0 0 1 548.926 325.0029)" fill="#0067AB"
+                                        font-family_old="'Helvetica'" font-family="'Helvetica'" font-weight="medium"
+                                        font-size="8.75px">80 MHz</text></g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g>
+                <use xlink:href="#New_Symbol" width="17.071" height="17.065" x="-8.536" y="-8.533"
+                    transform="matrix(1.2813 0 0 -1.2813 564.2723 222.7696)" overflow="visible" xlink:type="simple"
+                    xlink:show="embed" xlink:actuate="onLoad" />
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g><text transform="matrix(1 0 0 1 548.927 243.9384)" fill="#0067AB"
+                                        font-family_old="'Helvetica'" font-family="'Helvetica'" font-weight="medium"
+                                        font-size="8.75px">80 MHz</text></g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <use xlink:href="#New_Symbol_4" width="18.89" height="18.39" id="XMLID_11_" x="-9.445" y="-9.195"
+                transform="matrix(1.25 0 0 -1.25 522.8655 222.6016)" overflow="visible" xlink:type="simple"
+                xlink:show="embed" xlink:actuate="onLoad" />
+            <polyline fill="none" stroke="#F6921E" stroke-width="0.75"
+                points="512.17,49.267 488.004,49.267 488.003,129.377     515.976,129.377   " />
+            <line fill="none" stroke="#F7941E" stroke-width="0.75" x1="591.409" y1="129.923" x2="538.513"
+                y2="130.009" />
+            <line fill="none" stroke="#F6921E" stroke-width="0.75" x1="521.615" y1="60.643" x2="521.614" y2="79.386" />
+            <line fill="none" stroke="#F6921E" stroke-width="0.75" x1="521.615" y1="98.555" x2="521.614" y2="120.166" />
+            <g>
+                <line fill="none" stroke="#F6921E" stroke-width="0.75" x1="538.362" y1="49.267" x2="593.101"
+                    y2="49.267" />
+                <polygon fill="#F6921E" points="541.153,52.431 541.153,49.267 541.153,46.103 533.243,49.267    " />
+            </g>
+            <g>
+                <polygon fill="#F6921E" points="541.22,133.087 541.22,129.923 541.22,126.76 533.31,129.923    " />
+            </g>
+            <use xlink:href="#New_Symbol_13" width="17.495" height="16.523" x="-8.748" y="-8.262"
+                transform="matrix(1.25 0 0 -1.25 521.6147 88.6548)" overflow="visible" xlink:type="simple"
+                xlink:show="embed" xlink:actuate="onLoad" />
+            <use xlink:href="#New_Symbol_4" width="18.89" height="18.39" x="-9.445" y="-9.195"
+                transform="matrix(1.25 0 0 -1.25 521.6155 49.2668)" overflow="visible" xlink:type="simple"
+                xlink:show="embed" xlink:actuate="onLoad" />
+            <use xlink:href="#New_Symbol_4" width="18.89" height="18.39" x="-9.445" y="-9.195"
+                transform="matrix(1.25 0 0 -1.25 521.6152 129.5328)" overflow="visible" xlink:type="simple"
+                xlink:show="embed" xlink:actuate="onLoad" />
+            <g>
+                <g>
+                    <polygon fill="#DCEFF5" stroke="#0068AB" stroke-width="0.625"
+                        points="623.788,140.047 600.694,140.047 591.409,129.923       600.694,119.52 623.788,119.52     " />
+                    <g><text transform="matrix(1 0 0 1 600.4504 132.7289)" fill="#0067AC" font-family_old="'Helvetica'"
+                            font-family="'Helvetica'" font-weight="medium" font-size="8.7499px">DAC</text></g>
+                </g>
+                <g>
+                    <g>
+                        <g>
+                            <g><text transform="matrix(1 0 0 1 591.384 151.1352)" fill="#0067AB"
+                                    font-family_old="'Helvetica'" font-family="'Helvetica'" font-weight="medium"
+                                    font-size="8.75px">200 MS/s</text></g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g>
+                <use xlink:href="#New_Symbol" width="17.071" height="17.065" x="-8.536" y="-8.533"
+                    transform="matrix(1.2812 0 0 -1.2813 564.2723 129.8779)" overflow="visible" xlink:type="simple"
+                    xlink:show="embed" xlink:actuate="onLoad" />
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g><text transform="matrix(1 0 0 1 548.926 151.1357)" fill="#0067AB"
+                                        font-family_old="'Helvetica'" font-family="'Helvetica'" font-weight="medium"
+                                        font-size="8.75px">80 MHz</text></g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g><text transform="matrix(1 0 0 1 546.7336 104.3105)">
+                                        <tspan x="0" y="0" fill="#0067AB" font-family_old="'Helvetica'"
+                                            font-family="'Helvetica'" font-weight="medium" font-size="8.75px">Lowpass
+                                        </tspan>
+                                        <tspan x="7.543" y="10.5" fill="#0067AB" font-family_old="'Helvetica'"
+                                            font-family="'Helvetica'" font-weight="medium" font-size="8.75px">Filter
+                                        </tspan>
+                                    </text></g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g><text transform="matrix(1 0 0 1 546.7336 197.6367)">
+                                        <tspan x="0" y="0" fill="#0067AB" font-family_old="'Helvetica'"
+                                            font-family="'Helvetica'" font-weight="medium" font-size="8.75px">Lowpass
+                                        </tspan>
+                                        <tspan x="7.543" y="10.5" fill="#0067AB" font-family_old="'Helvetica'"
+                                            font-family="'Helvetica'" font-weight="medium" font-size="8.75px">Filter
+                                        </tspan>
+                                    </text></g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g><text transform="matrix(1 0 0 1 546.7336 278.6376)">
+                                        <tspan x="0" y="0" fill="#0067AB" font-family_old="'Helvetica'"
+                                            font-family="'Helvetica'" font-weight="medium" font-size="8.75px">Lowpass
+                                        </tspan>
+                                        <tspan x="7.543" y="10.5" fill="#0067AB" font-family_old="'Helvetica'"
+                                            font-family="'Helvetica'" font-weight="medium" font-size="8.75px">Filter
+                                        </tspan>
+                                    </text></g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g><text transform="matrix(1 0 0 1 546.7336 24.0761)">
+                                        <tspan x="0" y="0" fill="#0067AB" font-family_old="'Helvetica'"
+                                            font-family="'Helvetica'" font-weight="medium" font-size="8.75px">Lowpass
+                                        </tspan>
+                                        <tspan x="7.543" y="10.5" fill="#0067AB" font-family_old="'Helvetica'"
+                                            font-family="'Helvetica'" font-weight="medium" font-size="8.75px">Filter
+                                        </tspan>
+                                    </text></g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g><text transform="matrix(1 0 0 1 696.053 8.7294)" fill="#0067AB"
+                                        font-family_old="'Helvetica'" font-family="'Helvetica'" font-weight="medium"
+                                        font-size="10.1625px">FPGA</text></g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g>
+                <use xlink:href="#New_Symbol" width="17.071" height="17.065" x="-8.536" y="-8.533"
+                    transform="matrix(1.2813 0 0 -1.2813 564.2723 49.2445)" overflow="visible" xlink:type="simple"
+                    xlink:show="embed" xlink:actuate="onLoad" />
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g><text transform="matrix(1 0 0 1 548.927 70.4374)" fill="#0067AB"
+                                        font-family_old="'Helvetica'" font-family="'Helvetica'" font-weight="medium"
+                                        font-size="8.75px">80 MHz</text></g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g>
+                <g>
+                    <polygon fill="#DCEFF5" stroke="#0068AB" stroke-width="0.625"
+                        points="624.816,59.531 601.721,59.531 592.437,49.407       601.721,39.003 624.816,39.003     " />
+                    <g><text transform="matrix(1 0 0 1 601.2454 52.1782)" fill="#0067AC" font-family_old="'Helvetica'"
+                            font-family="'Helvetica'" font-weight="medium" font-size="8.75px">DAC</text></g>
+                </g>
+                <g>
+                    <g>
+                        <g>
+                            <g><text transform="matrix(1 0 0 1 591.384 70.4374)" fill="#0067AB"
+                                    font-family_old="'Helvetica'" font-family="'Helvetica'" font-weight="medium"
+                                    font-size="8.75px">200 MS/s</text></g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g>
+                <g>
+                    <g>
+                        <g><text transform="matrix(1 0 0 1 303.1072 269.3788)">
+                                <tspan x="0" y="0" fill="#0067AB" font-family_old="'Helvetica'"
+                                    font-family="'Helvetica'" font-weight="medium" font-size="8.75px">10 MHz -</tspan>
+                                <tspan x="0.24" y="10.5" fill="#0067AB" font-family_old="'Helvetica'"
+                                    font-family="'Helvetica'" font-weight="medium" font-size="8.75px">500 MHz</tspan>
+                            </text></g>
+                    </g>
+                </g>
+            </g>
+            <g>
+                <rect x="703.398" y="213.493" fill="#DCF1F7" stroke="#0068AB" stroke-width="0.7813" width="21.502"
+                    height="102.446" /><text transform="matrix(0 -1 1 0 717.4749 303.6122)" fill="#0068AB"
+                    font-family_old="'Helvetica'" font-family="'Helvetica'" font-weight="medium"
+                    font-size="10.9375px">Receive Control</text>
+            </g>
+            <g>
+                <line fill="none" stroke="#F6921E" stroke-width="0.75" x1="691.013" y1="49.267" x2="710.917"
+                    y2="49.267" />
+                <polygon fill="#F6921E" points="692.2,52.431 692.2,49.267 692.2,46.103 684.29,49.267    " />
+            </g>
+            <g>
+                <line fill="none" stroke="#F6921E" stroke-width="0.75" x1="698.037" y1="222.853" x2="625.303"
+                    y2="222.853" />
+                <polygon fill="#F6921E" points="695.261,219.69 695.261,222.853 695.261,226.017 703.17,222.854    " />
+            </g>
+            <g>
+                <path fill="none" stroke="#F6921E" stroke-width="0.75" d="M637.844,128.916" />
+            </g>
+            <g>
+                <path fill="none" stroke="#F6921E" stroke-width="0.75" d="M638.153,223.292" />
+            </g>
+            <g>
+                <g>
+                    <g>
+                        <rect x="648.048" y="212.981" fill="#DCEFF5" stroke="#0068AB" stroke-width="0.625"
+                            width="36.242" height="20.623" />
+                        <g><text transform="matrix(1 0 0 1 660.6125 226.623)" fill="#0067AC"
+                                font-family_old="'Helvetica'" font-family="'Helvetica'" font-weight="medium"
+                                font-size="8.75px">DDC</text></g>
+                    </g>
+                </g>
+                <g>
+                    <g>
+                        <g>
+                            <line fill="none" stroke="#0067AB" stroke-width="0.6942" x1="654.846" y1="227.577"
+                                x2="654.853" y2="217.248" />
+                        </g>
+                        <polyline fill="#0067AC"
+                            points="654.792,222.792 651.901,222.792 654.79,229.337 657.685,222.792 654.792,222.792      " />
+                    </g>
+                </g>
+            </g>
+            <g>
+                <path fill="none" stroke="#F6921E" stroke-width="0.75" d="M638.153,303.501" />
+            </g>
+            <g>
+                <g>
+                    <g>
+                        <rect x="648.048" y="293.19" fill="#DCEFF5" stroke="#0068AB" stroke-width="0.625" width="36.242"
+                            height="20.623" />
+                        <g><text transform="matrix(1 0 0 1 660.6125 306.832)" fill="#0067AC"
+                                font-family_old="'Helvetica'" font-family="'Helvetica'" font-weight="medium"
+                                font-size="8.75px">DDC</text></g>
+                    </g>
+                </g>
+                <g>
+                    <g>
+                        <g>
+                            <line fill="none" stroke="#0067AB" stroke-width="0.6942" x1="654.846" y1="307.786"
+                                x2="654.853" y2="297.457" />
+                        </g>
+                        <polyline fill="#0067AC"
+                            points="654.792,303.001 651.901,303.001 654.79,309.546 657.685,303.001 654.792,303.001      " />
+                    </g>
+                </g>
+            </g>
+            <g>
+                <line fill="none" stroke="#F6921E" stroke-width="0.75" x1="629.934" y1="49.267" x2="648.049"
+                    y2="49.267" />
+                <polygon fill="#F6921E" points="632.725,52.431 632.725,49.267 632.725,46.103 624.816,49.267    " />
+            </g>
+            <g>
+                <line fill="none" stroke="#F6921E" stroke-width="0.75" x1="689.987" y1="129.783" x2="709.889"
+                    y2="129.783" />
+                <polygon fill="#F6921E" points="692.201,132.947 692.201,129.783 692.201,126.619 684.291,129.783    " />
+            </g>
+            <g>
+                <line fill="none" stroke="#F6921E" stroke-width="0.75" x1="731.422" y1="68.02" x2="743.242"
+                    y2="68.02" />
+                <polygon fill="#F6921E" points="733.023,71.184 733.023,68.02 733.023,64.857 725.113,68.02    " />
+            </g>
+            <g>
+                <line fill="none" stroke="#F6921E" stroke-width="0.75" x1="730.809" y1="107.827" x2="742.628"
+                    y2="107.827" />
+                <polygon fill="#F6921E" points="733.023,110.99 733.023,107.827 733.023,104.663 725.113,107.826    " />
+            </g>
+            <g>
+                <line fill="none" stroke="#F6921E" stroke-width="0.75" x1="725.266" y1="244.814" x2="736.378"
+                    y2="244.814" />
+                <polygon fill="#F6921E" points="734.718,241.651 734.718,244.815 734.718,247.979 742.628,244.815    " />
+            </g>
+            <g>
+                <line fill="none" stroke="#F6921E" stroke-width="0.75" x1="724.355" y1="284.62" x2="735.467"
+                    y2="284.62" />
+                <polygon fill="#F6921E" points="734.718,281.458 734.718,284.621 734.718,287.785 742.628,284.622    " />
+            </g>
+            <g>
+                <line fill="none" stroke="#F6921E" stroke-width="0.75" x1="628.907" y1="129.783" x2="648.048"
+                    y2="129.783" />
+                <polygon fill="#F6921E" points="631.698,132.947 631.698,129.783 631.698,126.619 623.788,129.783    " />
+                <polygon fill="#F6921E" points="582.937,52.408 582.937,49.244 582.937,46.081 575.027,49.244    " />
+                <polygon fill="#F6921E" points="582.881,133.13 582.881,129.966 582.881,126.803 574.971,129.966    " />
+            </g>
+            <g>
+                <rect x="703.399" y="37.747" fill="#DCF1F7" stroke="#0068AB" stroke-width="0.7813" width="21.502"
+                    height="104.946" /><text transform="matrix(0 -1 1 0 717.5256 130.6313)" fill="#0068AB"
+                    font-family_old="'Helvetica'" font-family="'Helvetica'" font-weight="medium"
+                    font-size="10.9375px">Transmit Control</text>
+            </g>
+            <g>
+                <g>
+                    <rect x="742.629" y="37.747" fill="#DCF1F7" stroke="#0068AB" stroke-width="0.7813" width="21.502"
+                        height="278.193" />
+                </g>
+                <g>
+                    <g><text transform="matrix(0 -1 1 0 756.3655 217.7953)" fill="#0068AB" font-family_old="'Helvetica'"
+                            font-family="'Helvetica'" font-weight="medium" font-size="10.9375px">Packet Routing</text>
+                    </g>
+                </g>
+            </g>
+            <g>
+                <rect x="790.306" y="187.361" fill="#DCEFF5" stroke="#0068AB" stroke-width="0.7813" width="19.608"
+                    height="128.578" />
+                <g>
+                    <g>
+                        <g><text transform="matrix(0 -1 1 0 804.053 264.4257)" fill="#0067AC"
+                                font-family_old="'Helvetica'" font-family="'Helvetica'" font-weight="medium"
+                                font-size="10.9315px">PCIe</text></g>
+                    </g>
+                </g>
+            </g>
+            <g>
+                <line fill="none" stroke="#F6921E" stroke-width="0.75" x1="768.034" y1="103.245" x2="785.1"
+                    y2="103.245" />
+                <polygon fill="#F6921E" points="771.989,106.409 771.989,103.245 771.989,100.081 764.079,103.245    " />
+                <polygon fill="#F6921E" points="782.396,100.083 782.396,103.247 782.396,106.411 790.306,103.247    " />
+            </g>
+            <g>
+                <line fill="none" stroke="#F6921E" stroke-width="0.75" x1="768.034" y1="252.392" x2="785.1"
+                    y2="252.392" />
+                <polygon fill="#F6921E" points="771.989,255.556 771.989,252.392 771.989,249.228 764.079,252.392    " />
+                <polygon fill="#F6921E" points="782.396,249.23 782.396,252.394 782.396,255.558 790.306,252.394    " />
+            </g>
+            <g>
+                <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="817.5444" y1="197.6375" x2="825.1732"
+                    y2="197.6375" xlink:type="simple" xlink:show="other" xlink:actuate="onLoad">
+                    <stop offset="0" style="stop-color:#FFFFFF" />
+                    <stop offset="1" style="stop-color:#000000" />
+                </linearGradient>
+                <line fill="url(#SVGID_1_)" stroke="#F6921E" stroke-width="0.75" x1="825.173" y1="197.637" x2="817.544"
+                    y2="197.637" />
+                <polygon fill="#F6921E" points="822.959,194.474 822.959,197.637 822.959,200.801 830.869,197.638    " />
+                <polygon fill="#F6921E" points="818.313,200.801 818.313,197.637 818.313,194.474 810.403,197.637    " />
+            </g>
+            <g>
+                <g>
+                    <rect x="648.049" y="119.474" fill="#DCEFF5" stroke="#0068AB" stroke-width="0.625" width="36.242"
+                        height="20.619" />
+                    <g><text transform="matrix(1 0 0 1 660.4299 132.9003)" fill="#0067AC" font-family_old="'Helvetica'"
+                            font-family="'Helvetica'" font-weight="medium" font-size="8.75px">DUC</text></g>
+                </g>
+                <g>
+                    <g>
+                        <g>
+                            <line fill="none" stroke="#0067AB" stroke-width="0.6942" x1="654.731" y1="124.544"
+                                x2="654.724" y2="134.983" />
+                        </g>
+                        <polyline fill="#0067AC"
+                            points="654.783,129.672 657.676,129.672 654.785,123.132 651.892,129.672 654.783,129.672      " />
+                    </g>
+                </g>
+            </g>
+            <g>
+                <g>
+                    <rect x="648.048" y="38.752" fill="#DCEFF5" stroke="#0068AB" stroke-width="0.625" width="36.242"
+                        height="20.619" />
+                    <g><text transform="matrix(1 0 0 1 660.429 52.1782)" fill="#0067AC" font-family_old="'Helvetica'"
+                            font-family="'Helvetica'" font-weight="medium" font-size="8.75px">DUC</text></g>
+                </g>
+                <g>
+                    <g>
+                        <g>
+                            <line fill="none" stroke="#0067AB" stroke-width="0.6942" x1="654.73" y1="43.822"
+                                x2="654.723" y2="54.261" />
+                        </g>
+                        <polyline fill="#0067AC"
+                            points="654.782,48.95 657.675,48.95 654.784,42.41 651.891,48.95 654.782,48.95      " />
+                    </g>
+                </g>
+            </g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <polygon fill="#DEF0F6" stroke="#0067AB" stroke-width="0.625"
+                                points="450.939,249.311 450.939,274.956 474.993,262.254               " />
+                        </g>
+                        <g>
+                            <polyline fill="#0068AB" stroke="#0069AA" stroke-width="0.625"
+                                points="471.952,254.772 469.726,253.453 475.256,249.203         474.184,256.099 471.952,254.772       " />
+                            <line fill="#DEF0F6" stroke="#0067AB" stroke-width="0.625" x1="472.173" y1="254.401"
+                                x2="457.864" y2="277.739" />
+                        </g>
+                    </g>
+                </g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g><text transform="matrix(1 0 0 1 453.4885 232.3559)">
+                                        <tspan x="0" y="0" fill="#0067AB" font-family_old="'Helvetica'"
+                                            font-family="'Helvetica'" font-weight="medium" font-size="8.75px">Drive
+                                        </tspan>
+                                        <tspan x="-6.807" y="10.5" fill="#0067AB" font-family_old="'Helvetica'"
+                                            font-family="'Helvetica'" font-weight="medium" font-size="8.75px">Amplifier
+                                        </tspan>
+                                    </text></g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <polygon fill="#DEF0F6" stroke="#0067AB" stroke-width="0.625"
+                                points="150.201,75.175 150.201,100.82 126.146,88.119               " />
+                        </g>
+                        <g>
+                            <polyline fill="#0068AB" stroke="#0069AA" stroke-width="0.625"
+                                points="129.187,80.637 131.414,79.318 125.884,75.068         126.956,81.963 129.187,80.637       " />
+                            <line fill="#DEF0F6" stroke="#0067AB" stroke-width="0.625" x1="128.966" y1="80.265"
+                                x2="143.275" y2="103.604" />
+                        </g>
+                    </g>
+                </g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g><text transform="matrix(1 0 0 1 121.1599 58.5175)">
+                                        <tspan x="0" y="0" fill="#0067AB" font-family_old="'Helvetica'"
+                                            font-family="'Helvetica'" font-weight="medium" font-size="8.75px">Transmit
+                                        </tspan>
+                                        <tspan x="0" y="10.5" fill="#0067AB" font-family_old="'Helvetica'"
+                                            font-family="'Helvetica'" font-weight="medium" font-size="8.75px">Amplifier
+                                        </tspan>
+                                    </text></g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g>
+                <g>
+                    <g><text transform="matrix(0 -1 1 0 822.803 121.8017)" fill="#0067AC" font-family_old="'Helvetica'"
+                            font-family="'Helvetica'" font-weight="medium" font-size="10.9315px">1G/10G</text></g>
+                </g>
+            </g>
+            <polyline fill="none" stroke="#F6921E" stroke-width="0.75"
+                points="329.39,162.251 219.619,162.251 219.619,254.155   " />
+            <use xlink:href="#New_Symbol_4" width="18.89" height="18.39" x="-9.445" y="-9.195"
+                transform="matrix(1.25 0 0 -1.25 319.3914 295.8433)" overflow="visible" xlink:type="simple"
+                xlink:show="embed" xlink:actuate="onLoad" />
+            <circle fill="#F6921E" stroke="#F6921E" stroke-width="0.75" stroke-miterlimit="3.8636" cx="219.618"
+                cy="192.015" r="1.871" />
+            <circle fill="#F6921E" stroke="#F6921E" stroke-width="0.75" stroke-miterlimit="3.8636" cx="219.618"
+                cy="366.128" r="1.871" />
+            <circle fill="#F6921E" stroke="#F6921E" stroke-width="0.75" stroke-miterlimit="3.8636" cx="219.618"
+                cy="336.211" r="1.871" />
+            <g>
+                <g>
+                    <rect x="857.718" y="151.044" fill="#DCEFF5" stroke="#0068AB" stroke-width="0.7813"
+                        stroke-linecap="round" stroke-linejoin="round" width="27.79" height="39.565" />
+                    <rect x="860.742" y="154.086" fill="#DCEFF5" stroke="#0068AB" stroke-width="0.7813" width="21.744"
+                        height="4.05" />
+                    <rect x="860.742" y="162.098" fill="#DCEFF5" stroke="#0068AB" stroke-width="0.7813" width="21.744"
+                        height="4.048" />
+                </g>
+                <g>
+                    <g>
+                        <g>
+                            <path fill="#DCEFF5"
+                                d="M865.733,191.824c0,0.271-0.221,0.492-0.492,0.492h-25.962c-0.271,0-0.492-0.221-0.492-0.492v-21.579        c0-0.271,0.221-0.492,0.492-0.492h25.962c0.271,0,0.492,0.221,0.492,0.492V191.824z" />
+                            <path fill="none" stroke="#0068AB" stroke-width="0.7813" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="        M865.733,191.824c0,0.271-0.221,0.492-0.492,0.492h-25.962c-0.271,0-0.492-0.221-0.492-0.492v-21.579        c0-0.271,0.221-0.492,0.492-0.492h25.962c0.271,0,0.492,0.221,0.492,0.492V191.824z" />
+                        </g>
+                    </g>
+                    <g>
+                        <g>
+                            <path fill="#DCEFF5"
+                                d="M855.774,194.841c0,0.271-0.221,0.492-0.492,0.492h-3.541c-0.271,0-0.492-0.221-0.492-0.492v-2.032        c0-0.271,0.221-0.492,0.492-0.492h3.541c0.271,0,0.492,0.221,0.492,0.492V194.841z" />
+                            <path fill="none" stroke="#0068AB" stroke-width="0.7813" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="        M855.774,194.841c0,0.271-0.221,0.492-0.492,0.492h-3.541c-0.271,0-0.492-0.221-0.492-0.492v-2.032        c0-0.271,0.221-0.492,0.492-0.492h3.541c0.271,0,0.492,0.221,0.492,0.492V194.841z" />
+                        </g>
+                    </g>
+                    <g>
+                        <g>
+                            <g>
+                                <path fill="#DCEFF5"
+                                    d="M879.276,203.888c0.239,0.126,0.214,0.229-0.057,0.229h-45.167c-0.271,0-0.381-0.192-0.245-0.426         l3.369-5.802c0.136-0.234,0.469-0.426,0.739-0.426h28.678c0.271,0,0.688,0.103,0.927,0.229L879.276,203.888z" />
+                                <path fill="none" stroke="#0068AB" stroke-width="0.7813" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="         M879.276,203.888c0.239,0.126,0.214,0.229-0.057,0.229h-45.167c-0.271,0-0.381-0.192-0.245-0.426l3.369-5.802         c0.136-0.234,0.469-0.426,0.739-0.426h28.678c0.271,0,0.688,0.103,0.927,0.229L879.276,203.888z" />
+                            </g>
+                        </g>
+                    </g>
+                    <g>
+                        <line fill="#DCEFF5" stroke="#0068AB" stroke-width="0.7813" stroke-linecap="round"
+                            stroke-linejoin="round" x1="839.751" y1="199.268" x2="864.772" y2="199.268" />
+                        <line fill="#DCEFF5" stroke="#0068AB" stroke-width="0.7813" stroke-linecap="round"
+                            stroke-linejoin="round" x1="837.667" y1="200.88" x2="866.853" y2="200.88" />
+                        <line fill="#DCEFF5" stroke="#0068AB" stroke-width="0.7813" stroke-linecap="round"
+                            stroke-linejoin="round" x1="835.583" y1="202.492" x2="868.935" y2="202.492" />
+                    </g>
+                    <line fill="#DCEFF5" stroke="#0068AB" stroke-width="1.25" stroke-linecap="round"
+                        stroke-linejoin="round" x1="845.37" y1="195.333" x2="861.645" y2="195.333" />
+                </g>
+            </g>
+            <g>
+                <rect x="790.306" y="37.747" fill="#DCEFF5" stroke="#0068AB" stroke-width="0.7813" width="19.608"
+                    height="129.828" />
+                <g>
+                    <g>
+                        <g><text transform="matrix(0 -1 1 0 804.053 116.4833)" fill="#0067AC"
+                                font-family_old="'Helvetica'" font-family="'Helvetica'" font-weight="medium"
+                                font-size="10.9315px">SPF+</text></g>
+                    </g>
+                </g>
+            </g>
+            <polyline fill="none" stroke="#F6921E" stroke-width="0.75"
+                points="219.619,267.027 219.397,388.152 121.806,388.152   " />
+            <g>
+                <g>
+                    <g>
+                        <g><text transform="matrix(1 -7.300071e-04 7.300071e-04 1 29.3167 374.1979)" fill="#0067AB"
+                                font-family_old="'Helvetica'" font-family="'Helvetica'" font-weight="medium"
+                                font-size="8.7499px">REF IN</text></g>
+                    </g>
+                </g>
+            </g>
+            <g>
+                <g>
+                    <g>
+                        <g><text transform="matrix(1 0 0 1 12.2302 405.1288)">
+                                <tspan x="0" y="0" fill="#0067AB" font-family_old="'Helvetica'"
+                                    font-family="'Helvetica'" font-weight="medium" font-size="8.75px">INTERNAL</tspan>
+                                <tspan x="24.307" y="10.5" fill="#0067AB" font-family_old="'Helvetica'"
+                                    font-family="'Helvetica'" font-weight="medium" font-size="8.75px">OSC</tspan>
+                            </text></g>
+                    </g>
+                </g>
+            </g>
+            <g>
+                <line fill="none" stroke="#F6921E" stroke-width="0.75" x1="97.631" y1="370.87" x2="81.377"
+                    y2="370.87" />
+                <polygon fill="#F6921E" points="93.676,374.034 93.676,370.87 93.676,367.707 101.585,370.87    " />
+                <use xlink:href="#New_Symbol_3" width="11.316" height="21.118" id="XMLID_16_" x="-5.658" y="-10.558"
+                    transform="matrix(1.25 0 0 -1.25 76.4998 376.7588)" overflow="visible" xlink:type="simple"
+                    xlink:show="embed" xlink:actuate="onLoad" />
+            </g>
+            <line fill="none" stroke="#F6921E" stroke-width="0.75" x1="97.631" y1="405.743" x2="77.568" y2="405.742" />
+            <polygon fill="#F6921E" points="93.676,408.906 93.676,405.742 93.676,402.578 101.585,405.742   " />
+            <g>
+                <g>
+                    <polygon fill="#DCEFF5" stroke="#0068AB" stroke-width="0.625"
+                        points="594.351,232.884 617.445,232.884 626.73,222.761       617.445,212.357 594.351,212.357     " />
+                    <g><text transform="matrix(1 0 0 1 599.3899 225.5693)" fill="#0067AC" font-family_old="'Helvetica'"
+                            font-family="'Helvetica'" font-weight="medium" font-size="8.75px">ADC</text></g>
+                </g>
+                <g>
+                    <g>
+                        <g>
+                            <g><text transform="matrix(1 0 0 1 591.3831 243.9394)" fill="#0067AB"
+                                    font-family_old="'Helvetica'" font-family="'Helvetica'" font-weight="medium"
+                                    font-size="8.75px">200 MS/s</text></g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g>
+                <polygon fill="#DEF0F6" stroke="#0067AB" stroke-width="0.625"
+                    points="138.167,285.762 138.167,304.996 156.208,295.47    " />
+            </g>
+            <g>
+                <polygon fill="#DEF0F6" stroke="#0067AB" stroke-width="0.625"
+                    points="158.167,219.963 158.167,239.197 176.208,229.67    " />
+            </g>
+            <g>
+                <rect x="94.307" y="248.346" fill="#DEF0F6" stroke="#0067AB" stroke-width="0.6406" width="27.924"
+                    height="27.792" />
+                <g>
+                    <g>
+                        <line fill="none" stroke="#0069AA" stroke-width="0.625" stroke-miterlimit="3.8636" x1="115.824"
+                            y1="255.016" x2="99.083" y2="271.756" />
+                        <polyline fill="#DAEEF4" stroke="#0069AA" stroke-width="0.625"
+                            points="114.418,256.441 112.984,255.007 116.475,254.384        115.852,257.876 114.418,256.441      " />
+                    </g>
+                    <g>
+                        <line fill="none" stroke="#0069AA" stroke-width="0.625" stroke-miterlimit="3.8636" x1="116.05"
+                            y1="269.673" x2="99.309" y2="252.934" />
+                        <polyline fill="#DAEEF4" stroke="#0069AA" stroke-width="0.625"
+                            points="114.441,268.065 113.007,269.499 116.497,270.122        115.875,266.63 114.441,268.065      " />
+                    </g>
+                    <g>
+                        <path fill="#0068AB" stroke="#0069AA" stroke-width="0.625"
+                            d="M118.348,254.299c-1.12,0-2.034-0.911-2.034-2.033       c0-1.122,0.914-2.035,2.034-2.035c1.119,0,2.033,0.913,2.033,2.035C120.38,253.388,119.467,254.299,118.348,254.299       L118.348,254.299z" />
+                        <line fill="none" x1="122.841" y1="252.265" x2="118.491" y2="252.265" />
+                        <line fill="none" stroke="#0069AA" stroke-width="0.625" stroke-miterlimit="3.8636" x1="118.347"
+                            y1="248.422" x2="118.347" y2="252.002" />
+                        <line fill="none" x1="122.841" y1="272.218" x2="118.491" y2="272.218" />
+                    </g>
+                    <g>
+                        <path fill="#0068AB" stroke="#0069AA" stroke-width="0.625"
+                            d="M118.348,274.252c-1.12,0-2.034-0.911-2.034-2.033       c0-1.122,0.914-2.035,2.034-2.035c1.119,0,2.033,0.913,2.033,2.035C120.38,273.34,119.467,274.252,118.348,274.252       L118.348,274.252z" />
+                        <line fill="none" stroke="#0069AA" stroke-width="0.625" stroke-miterlimit="3.8636" x1="118.347"
+                            y1="275.799" x2="118.347" y2="272.218" />
+                    </g>
+                    <g>
+                        <path fill="#0068AB" stroke="#0069AA" stroke-width="0.625"
+                            d="M98.734,270.185c1.12,0,2.034,0.911,2.034,2.033       c0,1.122-0.914,2.035-2.034,2.035c-1.119,0-2.033-0.913-2.033-2.035C96.701,271.096,97.615,270.185,98.734,270.185       L98.734,270.185z" />
+                        <line fill="none" stroke="#0069AA" stroke-width="0.625" stroke-miterlimit="3.8636" x1="94.095"
+                            y1="272.218" x2="98.591" y2="272.218" />
+                    </g>
+                    <g>
+                        <path fill="#0068AB" stroke="#0069AA" stroke-width="0.625"
+                            d="M98.734,250.232c1.12,0,2.034,0.911,2.034,2.033       c0,1.122-0.914,2.035-2.034,2.035c-1.119,0-2.033-0.913-2.033-2.035C96.701,251.143,97.615,250.232,98.734,250.232       L98.734,250.232z" />
+                        <line fill="none" stroke="#0069AA" stroke-width="0.625" stroke-miterlimit="3.8636" x1="98.734"
+                            y1="248.46" x2="98.734" y2="252.265" />
+                    </g>
+                    <g>
+                        <polygon fill="#0068AB"
+                            points="103.537,254.927 104.922,255.251 106.317,255.612 105.743,251.825      " />
+                        <path fill="none" stroke="#0069AA" stroke-width="0.625" stroke-miterlimit="3.8636"
+                            d="M105.193,253.592       c-0.522,3.4-2.245,5.028-6.553,4.546" />
+                    </g>
+                    <g>
+                        <polygon fill="#0068AB"
+                            points="103.631,269.571 105.016,269.247 106.411,268.887 105.837,272.673      " />
+                        <path fill="none" stroke="#0069AA" stroke-width="0.625" stroke-miterlimit="3.8636"
+                            d="M105.287,270.907       c-0.522-3.4-2.245-5.028-6.553-4.546" />
+                    </g>
+                </g>
+            </g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g><text transform="matrix(1 0 0 1 144.594 205.872)" enable-background="new    ">
+                                        <tspan x="0" y="0" fill="#0067AB" font-family_old="'Helvetica'"
+                                            font-family="'Helvetica'" font-weight="medium" font-size="8.75px">Low Noise
+                                        </tspan>
+                                        <tspan x="3.408" y="10.5" fill="#0067AB" font-family_old="'Helvetica'"
+                                            font-family="'Helvetica'" font-weight="medium" font-size="8.75px">Amplifier
+                                        </tspan>
+                                    </text></g>
+                            </g>
+                        </g>
+                    </g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <g><text transform="matrix(1 0 0 1 126.7654 271.7563)" enable-background="new    ">
+                                            <tspan x="0" y="0" fill="#0067AB" font-family_old="'Helvetica'"
+                                                font-family="'Helvetica'" font-weight="medium" font-size="8.75px">Low
+                                                Noise</tspan>
+                                            <tspan x="3.408" y="10.5" fill="#0067AB" font-family_old="'Helvetica'"
+                                                font-family="'Helvetica'" font-weight="medium" font-size="8.75px">
+                                                Amplifier</tspan>
+                                        </text></g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <polyline fill="none" stroke="#F6921E" stroke-width="0.75"
+                points="308.553,364.837 308.553,351.077 250.733,351.077     250.733,357.965   " />
+            <g>
+                <rect x="270.847" y="357.969" fill="#DCEFF5" stroke="#0067AB" stroke-width="0.625" width="29.813"
+                    height="16.39" />
+                <g><text transform="matrix(1 0 0 1 276.2722 369.3642)" fill="#0067AC" font-family_old="'Helvetica'"
+                        font-family="'Helvetica'" font-weight="medium" font-size="8.75px">VCO</text></g>
+            </g>
+            <g>
+                <rect x="235.431" y="357.971" fill="#DCEFF5" stroke="#0068AB" stroke-width="0.625" width="29.707"
+                    height="16.395" />
+                <g><text transform="matrix(1 0 0 1 242.7913 369.3642)" fill="#0067AC" font-family_old="'Helvetica'"
+                        font-family="'Helvetica'" font-weight="medium" font-size="8.75px">PLL</text></g>
+            </g>
+            <circle fill="#F6921E" stroke="#F6921E" stroke-width="0.75" stroke-miterlimit="3.8636" cx="308.553"
+                cy="366.166" r="1.871" />
+            <polyline fill="none" stroke="#F6921E" stroke-width="0.75"
+                points="311.976,334.866 311.976,321.106 255.523,321.106     255.523,327.993   " />
+            <g>
+                <rect x="275.637" y="327.998" fill="#DCEFF5" stroke="#0067AB" stroke-width="0.625" width="29.813"
+                    height="16.39" />
+                <g><text transform="matrix(1 0 0 1 281.0627 339.3925)" fill="#0067AC" font-family_old="'Helvetica'"
+                        font-family="'Helvetica'" font-weight="medium" font-size="8.75px">VCO</text></g>
+            </g>
+            <g>
+                <rect x="240.221" y="327.999" fill="#DCEFF5" stroke="#0068AB" stroke-width="0.625" width="29.707"
+                    height="16.395" />
+                <g><text transform="matrix(1 0 0 1 247.5813 339.3925)" fill="#0067AC" font-family_old="'Helvetica'"
+                        font-family="'Helvetica'" font-weight="medium" font-size="8.75px">PLL</text></g>
+            </g>
+            <circle fill="#F6921E" stroke="#F6921E" stroke-width="0.75" stroke-miterlimit="3.8636" cx="311.977"
+                cy="336.194" r="1.871" />
+            <polygon fill="#F6921E" points="231.93,333.044 231.93,336.244 231.93,339.344 239.83,336.244   " />
+            <polygon fill="#F6921E" points="227.32,362.881 227.32,366.081 227.32,369.281 235.22,366.081   " />
+            <use xlink:href="#New_Symbol_12" width="66.547" height="19.182" x="-33.273" y="-9.59"
+                transform="matrix(1.25 0 0 -1.25 278.9987 188.1806)" overflow="visible" xlink:type="simple"
+                xlink:show="embed" xlink:actuate="onLoad" />
+            <use xlink:href="#New_Symbol_12" width="66.547" height="19.182" x="-33.273" y="-9.59"
+                transform="matrix(1.25 0 0 -1.25 278.9987 158.7184)" overflow="visible" xlink:type="simple"
+                xlink:show="embed" xlink:actuate="onLoad" />
+            <polygon fill="#F6921E" points="229.99,159.046 229.99,162.246 229.99,165.346 237.89,162.246   " />
+            <polygon fill="#F6921E" points="229.515,188.815 229.515,192.015 229.515,195.215 237.415,192.015   " />
+            <use xlink:href="#New_Symbol_23_1_" width="17.655" height="17.014" x="-8.827" y="-8.506"
+                transform="matrix(1.25 0 0 -1.25 249.958 260.9923)" overflow="visible" xlink:type="simple"
+                xlink:show="embed" xlink:actuate="onLoad" />
+            <use xlink:href="#New_Symbol_23_1_" width="17.655" height="17.014" x="-8.827" y="-8.506"
+                transform="matrix(-1.25 0 0 -1.25 427.9304 261.6501)" overflow="visible" xlink:type="simple"
+                xlink:show="embed" xlink:actuate="onLoad" />
+            <use xlink:href="#New_Symbol_23_1_" width="17.655" height="17.014" x="-8.827" y="-8.506"
+                transform="matrix(-1.25 0 0 -1.25 203.326 260.9927)" overflow="visible" xlink:type="simple"
+                xlink:show="embed" xlink:actuate="onLoad" />
+            <use xlink:href="#New_Symbol_24" width="17.655" height="17.014" x="-8.827" y="-8.507"
+                transform="matrix(1.25 0 0 -1.25 94.3009 94.0667)" overflow="visible" xlink:type="simple"
+                xlink:show="embed" xlink:actuate="onLoad" />
+            <use xlink:href="#New_Symbol_10" width="17.232" height="17.232" id="XMLID_9_" x="-8.616" y="-9.616"
+                transform="matrix(1.25 0 0 -1.25 76.3184 404.493)" overflow="visible" xlink:type="simple"
+                xlink:show="embed" xlink:actuate="onLoad" />
+            <use xlink:href="#New_Symbol_11" width="17.905" height="39.261" x="-8.952" y="-19.63"
+                transform="matrix(1.25 0 0 -1.25 112.2057 388.2509)" overflow="visible" xlink:type="simple"
+                xlink:show="embed" xlink:actuate="onLoad" />
+            <g>
+                <linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="817.5444" y1="156.1109" x2="825.1732"
+                    y2="156.1109" xlink:type="simple" xlink:show="other" xlink:actuate="onLoad">
+                    <stop offset="0" style="stop-color:#FFFFFF" />
+                    <stop offset="1" style="stop-color:#000000" />
+                </linearGradient>
+                <line fill="url(#SVGID_2_)" stroke="#F6921E" stroke-width="0.75" x1="825.173" y1="156.111" x2="817.544"
+                    y2="156.111" />
+                <polygon fill="#F6921E" points="822.959,152.947 822.959,156.111 822.959,159.275 830.869,156.111    " />
+                <polygon fill="#F6921E" points="818.313,159.275 818.313,156.111 818.313,152.947 810.403,156.111    " />
+            </g>
+            <g>
+                <polygon fill="#7FB2CC"
+                    points="840.59,172.111 840.59,187.98 863.931,187.98 863.931,187.589 863.931,172.111    " />
+                <rect x="840.98" y="172.501" fill="none" stroke="#0068AB" stroke-width="0.7813" stroke-linecap="round"
+                    stroke-linejoin="round" width="22.56" height="15.088" />
+            </g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <rect x="355.478" y="284.839" fill="#DEF0F6" width="21.232" height="21.224" />
+                            <path fill="#0067AB"
+                                d="M377.03,306.384h-21.873v-21.865h21.873V306.384z M355.798,305.743h20.592v-20.584h-20.592V305.743z" />
+                        </g>
+                    </g>
+                </g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g><text transform="matrix(1 0 0 1 350.7478 316.6201)">
+                                        <tspan x="0" y="0" fill="#0067AB" font-family_old="'Helvetica'"
+                                            font-family="'Helvetica'" font-weight="medium" font-size="8.75px">84 MHz
+                                        </tspan>
+                                        <tspan x="-19.696" y="10.5" fill="#0067AB" font-family_old="'Helvetica'"
+                                            font-family="'Helvetica'" font-weight="medium" font-size="8.75px">2.44 GHz
+                                            (center)</tspan>
+                                    </text></g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g><text transform="matrix(1 0 0 1 346.3635 270.3188)">
+                                    <tspan x="0" y="0" fill="#0067AB" font-family_old="'Helvetica'"
+                                        font-family="'Helvetica'" font-weight="medium" font-size="8.75px">Bandpass
+                                    </tspan>
+                                    <tspan x="9.734" y="10.5" fill="#0067AB" font-family_old="'Helvetica'"
+                                        font-family="'Helvetica'" font-weight="medium" font-size="8.75px">Filter</tspan>
+                                </text></g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g>
+                <g>
+                    <path fill="#0067AB"
+                        d="M370.11,293.065c-1.473,0-2.903-0.769-4.253-2.288c-1.278-1.439-2.6-2.136-3.936-2.078      c-2.105,0.091-3.571,2.029-3.585,2.049l-0.514-0.382c0.067-0.09,1.665-2.202,4.071-2.306c1.538-0.067,3.031,0.702,4.437,2.285      c1.277,1.437,2.598,2.134,3.932,2.077c2.1-0.089,3.575-2.029,3.59-2.049l0.514,0.383c-0.067,0.09-1.665,2.201-4.071,2.306      C370.233,293.063,370.172,293.065,370.11,293.065z" />
+                </g>
+                <g>
+                    <path fill="#0067AB"
+                        d="M370.11,297.955c-1.458,0-2.874-0.754-4.212-2.243l-0.047-0.049c-1.271-1.431-2.592-2.127-3.926-2.071      c-2.1,0.089-3.575,2.03-3.59,2.05l-0.514-0.383c0.067-0.09,1.665-2.203,4.072-2.307c1.523-0.066,3.001,0.687,4.396,2.239      l0.047,0.049c1.271,1.431,2.592,2.128,3.927,2.072c2.1-0.089,3.575-2.031,3.59-2.05l0.514,0.383      c-0.067,0.09-1.665,2.203-4.072,2.307C370.233,297.953,370.172,297.955,370.11,297.955z" />
+                </g>
+                <g>
+                    <rect x="364.571" y="290.147" transform="matrix(0.6848 -0.7288 0.7288 0.6848 -96.2766 358.3623)"
+                        fill="#0067AB" width="3.047" height="0.641" />
+                </g>
+                <g>
+                    <path fill="#0067AB"
+                        d="M370.11,302.848c-1.473,0-2.903-0.769-4.253-2.288c-1.278-1.439-2.6-2.136-3.936-2.078      c-2.105,0.091-3.571,2.029-3.585,2.049l-0.514-0.382c0.067-0.09,1.665-2.202,4.071-2.306c1.538-0.067,3.031,0.702,4.437,2.285      c1.277,1.437,2.598,2.134,3.932,2.077c2.1-0.089,3.575-2.029,3.59-2.049l0.514,0.383c-0.067,0.09-1.665,2.201-4.071,2.306      C370.233,302.846,370.172,302.848,370.11,302.848z" />
+                </g>
+                <g>
+                    <rect x="364.571" y="299.931" transform="matrix(0.6848 -0.7288 0.7288 0.6848 -103.4063 361.4464)"
+                        fill="#0067AB" width="3.047" height="0.641" />
+                </g>
+            </g>
+        </g>
+    </switch>
+</svg>
