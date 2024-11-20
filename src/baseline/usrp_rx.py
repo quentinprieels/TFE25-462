@@ -304,6 +304,7 @@ symbols_hat = OFDM_channel_equalisation_timed(y, channel_estimate_FD, P, N_sc)
 # 5.5 Extract the information bits from the detected symbols
 ###############################################################################
 
+
 @timer_func
 def inverse_mapping_timed(symbols_hat, P, N_sc, const_type):
     bits_hat = inverse_mapping(symbols_hat.reshape((P * N_sc,)), const_type)
@@ -320,6 +321,14 @@ bits_hat = inverse_mapping_timed(symbols_hat, P, N_sc, const_type)
 # 6.1 OFDM radar receiver (rx_sig is already synchronised at the start of the
 # preamble)
 ###############################################################################
+def new_SISO_OFDM_DFRC_RADAR_RX(channel_estimate_FD, symbols, L_CP, M, zeropad_N, zeropad_P):
+    P, N_sc = symbols.shape
+    
+    N = (N_sc + L_CP) * M
+    
+    delay_doppler_map =  np.fft.ifftshift(np.fft.ifft(np.fft.fft(channel_estimate_FD,axis=0,n=P*zeropad_P),axis=1,n=N_sc*M*zeropad_N)[:,:M*L_CP*zeropad_N],axes=0)
+
+    return delay_doppler_map
 
 @timer_func
 def SISO_OFDM_DFRC_RADAR_RX_timed(rx_sig, symbols, L_CP, M, zeropad_N, zeropad_P):
@@ -328,6 +337,14 @@ def SISO_OFDM_DFRC_RADAR_RX_timed(rx_sig, symbols, L_CP, M, zeropad_N, zeropad_P
     return delay_doppler_map
 
 delay_doppler_map = SISO_OFDM_DFRC_RADAR_RX_timed(r_sync, symbols, L_CP, M, zeropad_N, zeropad_P)
+
+delay_doppler_map_new = new_SISO_OFDM_DFRC_RADAR_RX(channel_estimate_FD, symbols, L_CP, M, zeropad_N, zeropad_P)
+
+# Check if the two methods give the same result
+if np.allclose(delay_doppler_map, delay_doppler_map_new):
+    print("Both methods give the same result")
+else:
+    print("The two methods give different results")
 
 """
 # 7. Print and plots
@@ -374,6 +391,11 @@ Doppler_axis = (np.arange(P * zeropad_P) - np.floor(P * zeropad_P / 2)) * df_D
 # delay-doppler map
 plt.figure()
 plt.pcolormesh(delay_axis, Doppler_axis, abs(delay_doppler_map), shading="nearest")
+plt.ylabel("Doppler frequency [Hz]")
+plt.title("Delay-Doppler map")
+
+plt.figure()
+plt.pcolormesh(delay_axis, Doppler_axis, abs(delay_doppler_map_new), shading="nearest")
 plt.ylabel("Doppler frequency [Hz]")
 plt.title("Delay-Doppler map")
 # plt.show()
