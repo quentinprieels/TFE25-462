@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg width="800px" height="800px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <path fill="var(--ci-primary-color, #00214e)" d="M40,280H472a24.028,24.028,0,0,1,24,24V416a24.028,24.028,0,0,1-24,24H40a24.028,24.028,0,0,1-24-24V304A24.028,24.028,0,0,1,40,280Zm0,32v96H472V312Z" class="ci-primary"/>
+  <rect width="32" height="32" x="96" y="344" fill="var(--ci-primary-color, #00214e)" class="ci-primary"/>
+  <rect width="32" height="32" x="176" y="344" fill="var(--ci-primary-color, #00214e)" class="ci-primary"/>
+  <rect width="32" height="32" x="256" y="344" fill="var(--ci-primary-color, #00214e)" class="ci-primary"/>
+</svg>

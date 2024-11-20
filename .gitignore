@@ -5,7 +5,6 @@ playground/
 *.npy
 *.dat
 *_sig.txt
-todo.md
 xilinx/
 
 ###################
