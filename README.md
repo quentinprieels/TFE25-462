@@ -18,6 +18,9 @@ The project is structured as follows:
 
 - `docs/`: contains some documentation related to the project and helpful guides.
 - `experiments/`: contains the source code of the experiments conducted during the project and the results obtained.
+- `presentables/`:
+  - `meetings/`: contains the slides of the meetings with the promotors.
+  - `posters/`: contains the poster of the project.
 - `RADCOM_library/`: contains the source code of the RADCOM library developed by UCLouvain and used in the project.
 - `src/`
   - `baseline/`: contains the source code of the baseline implementation of the OFDM chain.
