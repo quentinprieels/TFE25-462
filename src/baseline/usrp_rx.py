@@ -101,7 +101,7 @@ rx_sig_filename = sys.argv[2] or "rx_sig_rx.dat"
 # Transmission scenario name
 scenario_name = "Setup_40MHz"
 # Show graphs
-show_results = True
+show_results = False
 
 # Load the parameters for the given scenario
 MyDic_param = np.load(input_folder + scenario_name + "_" + "parameters.npy", allow_pickle=True).item()
@@ -321,6 +321,7 @@ bits_hat = inverse_mapping_timed(symbols_hat, P, N_sc, const_type)
 # 6.1 OFDM radar receiver (rx_sig is already synchronised at the start of the
 # preamble)
 ###############################################################################
+@timer_func
 def new_SISO_OFDM_DFRC_RADAR_RX(channel_estimate_FD, symbols, L_CP, M, zeropad_N, zeropad_P):
     P, N_sc = symbols.shape
     
@@ -336,15 +337,11 @@ def SISO_OFDM_DFRC_RADAR_RX_timed(rx_sig, symbols, L_CP, M, zeropad_N, zeropad_P
 
     return delay_doppler_map
 
-delay_doppler_map = SISO_OFDM_DFRC_RADAR_RX_timed(r_sync, symbols, L_CP, M, zeropad_N, zeropad_P)
+# delay_doppler_map = SISO_OFDM_DFRC_RADAR_RX_timed(r_sync, symbols, L_CP, M, zeropad_N, zeropad_P)
 
 delay_doppler_map_new = new_SISO_OFDM_DFRC_RADAR_RX(channel_estimate_FD, symbols, L_CP, M, zeropad_N, zeropad_P)
 
 # Check if the two methods give the same result
-if np.allclose(delay_doppler_map, delay_doppler_map_new):
-    print("Both methods give the same result")
-else:
-    print("The two methods give different results")
 
 """
 # 7. Print and plots
@@ -389,11 +386,6 @@ delay_axis = np.arange(Ng * zeropad_N) * dtau
 Doppler_axis = (np.arange(P * zeropad_P) - np.floor(P * zeropad_P / 2)) * df_D
 
 # delay-doppler map
-plt.figure()
-plt.pcolormesh(delay_axis, Doppler_axis, abs(delay_doppler_map), shading="nearest")
-plt.ylabel("Doppler frequency [Hz]")
-plt.title("Delay-Doppler map")
-
 plt.figure()
 plt.pcolormesh(delay_axis, Doppler_axis, abs(delay_doppler_map_new), shading="nearest")
 plt.ylabel("Doppler frequency [Hz]")
