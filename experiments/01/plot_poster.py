@@ -23,10 +23,10 @@ results = results._append({'function': 'Total_common', 'time': common_time}, ign
 block_colors = {
     "OFDM_synchronisation": "#00204e",
     "OFDM_demodulation": "#f0c987",
-    "OFDM_channel_estimate": "#b5dbab",
+    "OFDM_channel_estimate": "#5db4e6",
     "OFDM_channel_equalisation": "#8b687f",
-    "inverse_mapping": "#5db4e6",
-    "new_SISO_OFDM_DFRC_RADAR_RX": "#9cb7d4",
+    "inverse_mapping": "#5db4e6", # Not shown in the plot
+    "new_SISO_OFDM_DFRC_RADAR_RX": "#b5dbab",
     "Total_common": "white",
 }
 

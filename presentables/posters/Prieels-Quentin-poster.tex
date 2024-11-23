@@ -114,44 +114,51 @@
   \justifying
 
   \vspace{-0.7cm}
-  %\vspace{-0.5in}
 
-
-  \begin{alertblock}{Abstract}
+  \begin{alertblock}{Objective}
     Both communication and RADAR systems exploit the same frequency spectrum, but for different purposes. 
-    The first aims to transmit unknown data, the second aims to detect targets and estimate their parameters, such as velocity or distance. 
+    The first aims to transmit unknown data, the second aims to detect targets. % and estimate their parameters, such as velocity or distance. 
     As they share processing steps, why not combine them in a single system? 
-    How to achieve a sufficient level of performance to be able to process data in real-time?
+    \textbf{How to achieve a sufficient level of performance to be able to process data in real-time?}
   \end{alertblock}
 
-  %\vspace{-0.2in}
+  \vspace{-0.5in}
 
   \begin{block}{Context}
     In recent years, the concept of integrated sensing and communication systems (ISAC) has gained attention. 
     \textbf{Combining data transmission and target detection} into a single system, would enable to: \vspace{-0.2in}
-      \begin{itemize}
-        \item \hspace{0.2cm} exploit the frequency spectrum more efficiently;
-        \item \hspace{0.2cm} reduce the number of hardware needed.
-        %\item \hspace{0.2cm} reduce the energy consumption.
-      \end{itemize}
-      %\newline
+    
+    \begin{itemize}
+      \item \hspace{0.2cm} exploit the frequency spectrum more efficiently;
+      \item \hspace{0.2cm} reduce the number of hardware needed.
+      %\item \hspace{0.2cm} reduce the energy consumption.
+    \end{itemize}
 
-    From autonomous vehicles to health monitoring, ISAC systems have a wide range of applications. 
-    Especially in the context of the Internet of Things (IoT) where billions of connected devices are already deployed and rely on wireless communication like Wi-Fi.\newline
+    \begin{figure}[!ht]
+      \centering
+      \includegraphics[width=\linewidth]{img/isac.pdf}
+      \caption{ISAC system considered in this work}
+    \end{figure}
+
+    \vspace{-0.2in}
+
+    % From autonomous vehicles to health monitoring, ISAC systems have a wide range of applications. 
+    % Especially in the context of the Internet of Things (IoT) where billions of connected devices are already deployed and rely on wireless communication like Wi-Fi.\newline
 
     New standards, like the upcoming 802.11bf, are being defined to support sensing capabilities in Wi-Fi networks. 
     Based on \textbf{Orthogonal Frequency Division Multiplexing (OFDM) modulation}, Wi-Fi Sensing can be used to detect the presence of people, monitor their movements, or even perform fall detection.
   \end{block}
 
-  %\vspace{-0.2in}
+  \vspace{-0.2in}
 
   \begin{block}{Experimental setup}
     Proof of concept of ISAC exists, with an \textbf{experimental setup} developed at UCLouvain. 
-    %It performs basic communication and radar functions using signals defined by the Wi-Fi 6 standard. 
-    Based on a software implementation using Software-Defined Radio (SDR), it first captures the received signal, then \textbf{process data offline}. 
+    % It performs basic communication and radar functions using signals defined by the Wi-Fi 6 standard. 
+    Based on a software implementation,  %using Software-Defined Radio (SDR), 
+    it first captures the received signal, then \textbf{process data offline}. 
     It uses the Universal Software Radio Peripheral (USRP) devices from Ettus Research to transmit and receive signals.
 
-    \vspace{0.5in}
+    \vspace{0.2in}
 
     \begin{figure}[!ht]
       \centering
@@ -169,13 +176,21 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{column}{\onecolwid}
 
-  %\vspace{-0.5in}
+  \vspace{-0.5in}
 
-  \begin{block}{Objective}
+  \begin{block}{Methodology}
     USRP devices embed \textbf{Field-Programmable Gate Arrays (FPGAs)} that can be programmed to accelerate the processing of the data. 
-    By implementing several blocks of the OFDM receiver chain, like time synchronization or Fast Fourier Transform (FFT) on the FPGA, it is possible to speed up the processing and \textbf{target real-time data processing}.
+    By implementing several blocks of the OFDM receiver chain %, like time synchronization or Fast Fourier Transform (FFT) 
+    on the FPGA, it is possible to speed up the processing and \textbf{target real-time data processing}. \\ \vspace{0.2in}
+    To ensure an efficient implementation, it is necessary to: \vspace{-0.2in}
+    \begin{itemize}
+      \item \hspace{0.2cm} analyze the complexity of each stage;
+      \item \hspace{0.2cm} optimize the processing pipeline;
+      % \item \hspace{0.2cm} parallelize unrelated blocks;
+      \item \hspace{0.2cm} implement the most time-consuming blocks on hardware.
+    \end{itemize}
 
-    %\vspace{-0.1in}
+    \vspace{0.1in}
 
     \begin{figure}[!ht]
       \centering
@@ -183,9 +198,7 @@
       \caption{OFDM receiver chain}
     \end{figure}
 
-    Some blocks of the processing pipeline take more time than others. Therefore, there are more interesting to accelerate.
-
-    \vspace{0.2in}
+    %\vspace{-0.3in}
 
     \begin{figure}[!ht]
       \centering
@@ -193,11 +206,11 @@
       \caption{Time taken by each block of the receiver chain for a 2048 OFDM symbols packet}
     \end{figure}
 
-  \end{block}
+  % \end{block}
 
-  %\vspace{-0.8in}
+  \vspace{0.3in}
 
-  \begin{block}{Approach}
+  % \begin{block}{Approach}
     Internally, the FPGA of the USRP devices is composed of several blocks that can be interconnected to create a custom processing chain. 
     Ettus Research developed the \textbf{RFNoC} (RF Network on Chip) framework to facilitate the development of FPGA-based signal processing chains and enable the integration of custom processing blocks.
 
@@ -210,7 +223,6 @@
   \end{block}
 \end{column}
 
-
 \begin{column}{\sepwid}\end{column} % Empty spacer column
 
 %\begin{block}{Acknowlegdments}
@@ -218,11 +230,10 @@
 %\end{block}
 
 \end{columns} % End of all the columns in the poster
-\vspace{-1in}
+\vspace{-1.0in}
 \begin{center}
   \usebeamerfont{block body} Academic year 2024-2025
 \end{center}
-
 \end{frame}
 
 \end{document}
