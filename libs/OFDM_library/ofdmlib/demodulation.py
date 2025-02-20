@@ -46,7 +46,9 @@ class Demodulation:
             tsymbols = np.concatenate([tsymbols, zeropad])
             
         # Reshape the time domain symbols to a matrix and remove the cyclic prefix
-        if self.remove_first:
+        if CP == 0:
+            tsymbols = np.reshape(tsymbols, (N, (self.frame.K) * M))
+        elif self.remove_first:
             tsymbols = np.reshape(tsymbols, (N, (CP + self.K) * M))[:, CP * M:]  # remove the FIRST M*CP samples
         else:
             tsymbols = np.reshape(tsymbols, (N, (CP + self.frame.K) * M))[:, :-CP * M]  # remove the LAST M*CP samples
@@ -70,17 +72,6 @@ class Demodulation:
         fpayload = self.demodulate_symbols(tpayload, self.frame.N, self.frame.CP, self.frame.M)
         
         return fpreamble, fpayload
-
-
-    def channel_estimate(self, fpreamble_recieved: np.ndarray) -> np.ndarray:
-        """
-        Estimate the channel response using the preamble.
-        
-        Parameters:
-        - fpreamble_recieved: The received preamble symbols used for estimating the channel
-        """
-        H = fpreamble_recieved / self.frame.fpreamble[1]
-        return H
     
     
     def demodulate(self) -> None:
@@ -96,7 +87,7 @@ class Demodulation:
         Equalize the received symbols.
         """        
         # Estimate the channel
-        self.H = self.frame.fpreamble[1] / self.fpreamble[1]
+        self.H = self.frame.fpreamble[1] / (self.fpreamble[1] + 1e-10)
         
         # Equalize the received symbols
         self.fpayload = self.fpayload * self.H

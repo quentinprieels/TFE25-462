@@ -30,6 +30,7 @@ class SchmidlAndCox(ABC):
         self.P = None  # Metric P(d) of S&C
         self.R = None  # Metric R(d) of S&C
         self.M = None  # Metric M(d) of S&C
+        self.N = None
         self.sync = None  # The synchronization point in the frame
         
     
@@ -88,6 +89,11 @@ class SchmidlAndCox(ABC):
         
         return detected_point_idx if state == "FOUND" else -1
 
+
+    @abstractmethod
+    def run(self, threshold: int, min: int, width: int) -> None:
+        raise NotImplementedError("The 'run' method must be implemented in the subclass")
+    
     
     def plot(self, metrics: list[tuple[np.ndarray, str]], subtitle_dict: dict, limitate: bool = False, title: str = None) -> None:
         """
@@ -247,7 +253,7 @@ class SchmidlAndCoxBasic(SchmidlAndCox):
         return P, R, M
      
 
-    def run(self, threshold: int, min: int) -> None:
+    def run(self, threshold: int, min: int, width: int = None) -> None:
         """
         Run the Schmidl and Cox synchronization algorithm.
         """

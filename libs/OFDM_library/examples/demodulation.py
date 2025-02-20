@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+import numpy as np
 
 from ofdmlib.frame import Frame
 from ofdmlib.modulation import Modulation
@@ -18,7 +19,7 @@ mod.modulate()
 channel = Channel(frame, verbose=True, random_seed=199317234)
 #channel.add_multipath([(1, 0.5), (2, 0.3), (3, 0.2)])
 channel.add_sto(1000)
-channel.add_noise(10)
+channel.add_noise(np.inf)
 
 # Schmidl and Cox timing synchronization
 sync = SchmidlAndCoxAvg(frame, channel, verbose=True)

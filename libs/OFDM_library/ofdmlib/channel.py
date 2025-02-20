@@ -30,15 +30,12 @@ class Channel():
         """
         Add AWG noise to the given frame.
         """
-        assert SNR >= 0, "The SNR must be a positive float"
-        
         self.SNR = SNR
         if SNR == np.inf:
             return
 
-        snr_lin = 10 ** (SNR / 10)
-        signal_power = np.mean(np.abs(self.frame.get_frame()) ** 2)
-        noise_power = signal_power / snr_lin
+        signal_power = np.mean(abs(self.frame.get_frame()) ** 2)
+        noise_power = signal_power * 10 ** (-SNR / 10)
         noise_frame = np.sqrt(noise_power / 2) * (self.generator.normal(size=len(self.frame.get_frame())) + 1j * self.generator.normal(size=len(self.frame.get_frame())))
         noisy_frame = self.frame.get_frame() + noise_frame
         self.frame.set_frame(noisy_frame)
