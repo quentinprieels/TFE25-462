@@ -21,7 +21,9 @@ The project is structured as follows:
 - `presentables/`:
   - `meetings/`: contains the slides of the meetings with the promotors.
   - `posters/`: contains the poster of the project.
-- `RADCOM_library/`: contains the source code of the RADCOM library developed by UCLouvain and used in the project.
+- `libs/`: contains the source code of some libraries used in the `src/` folder:
+  - `RADCOM_library`: contains the source code of the RADCOM library used for simulation and processing of the OFDM chain.
+  - `OFDM_library`: contains the source code of the OFDM library used for simulation and design validation of the OFDM chain.
 - `src/`
   - `baseline/`: contains the source code of the baseline implementation of the OFDM chain.
 - `uhd`: contains the source code of the UHD library used to program the USRP devices. It is a submodule pointing to the [UHD repository](https://github.com/EttusResearch/uhd).
