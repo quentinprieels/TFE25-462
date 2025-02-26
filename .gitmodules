@@ -1,3 +1,0 @@
-[submodule "uhd"]
-	path = uhd
-	url = https://github.com/quentinprieels/TFE25-462-uhd
