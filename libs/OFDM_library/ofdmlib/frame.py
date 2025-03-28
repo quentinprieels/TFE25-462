@@ -186,12 +186,57 @@ class Frame:
             bits.append(bits_)
         return np.array(fsymbols), np.array(bits) # Shape: (N, K), (N, K * bits_per_fsymbol)
 
+    
     def get_pilots(self) -> np.ndarray:
         """
         Return the pilots symbols.
         Pilots symbols only exist in the payload.
         """
         return self.fpayload[self.pilots_idx_t_mesh.T, self.pilots_idx_f_mesh.T]
+    
+    
+    def save(self, filename: str) -> None:
+        """
+        Save the frame to a .txt file in a I/Q format, each line contains a sample.
+        The file is saved in the following format:
+        I0
+        Q0
+        I1
+        Q1
+        ...
+        """
+        signal_len = self.len
+        
+        # Create I/Q signal
+        split_signal = np.zeros((signal_len * 2))
+        split_signal[0::2] = np.real(self.frame)
+        split_signal[1::2] = np.imag(self.frame)
+        
+        # Normalize the signal
+        # Ensure norm < 1
+        split_signal = split_signal / np.max(np.abs(split_signal)) * 0.7      
+        np.savetxt(filename, split_signal)
+    
+    
+    def load(self, filename: str) -> None:
+        """
+        Load a file containing a I/Q signal. The file has the same format as
+        the save function.        
+        """
+        signal_len = self.len
+        split_signal = np.loadtxt(filename)
+        
+        # Check the signal length
+        if len(split_signal) != signal_len * 2:
+            raise ValueError(f"Invalid signal length: {len(split_signal)}")
+        
+        # Create the complex signal
+        self.frame = split_signal[0::2] + 1j * split_signal[1::2]
+        
+        # Check the signal norm
+        if np.max(np.abs(self.frame)) > 1:
+            raise ValueError("Signal norm is greater than 1")
+        
     
     def plot(self, bits: bool = False) -> None:
         """
