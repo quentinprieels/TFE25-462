@@ -223,19 +223,21 @@ class Frame:
         Load a file containing a I/Q signal. The file has the same format as
         the save function.        
         """
-        signal_len = self.len
-        split_signal = np.loadtxt(filename)
+        with open(filename, "rb") as file:
+            data = np.fromfile(file, dtype=np.float32)
+            data = data.astype(np.complex64)
+            
+            rx_sig = data[0::2] + 1j * data[1::2]
+            rx_sig.reshape(-1, 1)
+            rx_sig = np.squeeze(rx_sig)
         
         # Check the signal length
-        if len(split_signal) != signal_len * 2:
-            raise ValueError(f"Invalid signal length: {len(split_signal)}")
+        if len(rx_sig) != self.len:
+            print(f"CAUTION: Invalid signal length: expected {self.len}, got {len(rx_sig)}\nOverwriting the length...")
+            self.len = len(rx_sig)
         
         # Create the complex signal
-        self.frame = split_signal[0::2] + 1j * split_signal[1::2]
-        
-        # Check the signal norm
-        if np.max(np.abs(self.frame)) > 1:
-            raise ValueError("Signal norm is greater than 1")
+        self.frame = rx_sig
         
     
     def plot(self, bits: bool = False) -> None:

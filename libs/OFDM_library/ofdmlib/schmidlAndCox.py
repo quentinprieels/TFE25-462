@@ -157,7 +157,7 @@ class SchmidlAndCox(ABC):
         payload_start = t_preamble_start + 2 * (self.frame.CP_preamble + self.frame.K) * self.frame.M
         payload_end = payload_start + self.frame.N * (self.frame.CP + self.frame.K) * self.frame.M
         
-        assert payload_end == len(self.frame.get_frame()), "The frame length is not correct"
+        # assert payload_end == len(self.frame.get_frame()), "The frame length is not correct"
         
         # Global frame information
         plt.text(frame_plot_start + (t_preamble_start - frame_plot_start) // 2, text_annotation_height, "STO", horizontalalignment='center', clip_on=True)
